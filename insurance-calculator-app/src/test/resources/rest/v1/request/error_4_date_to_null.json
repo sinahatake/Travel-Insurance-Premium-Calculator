@@ -1,0 +1,13 @@
+{
+  "personCode": "010882-11034",
+  "personFirstName": "Anna",
+  "personLastName": "Smith",
+  "agreementDateFrom": "2028-01-01",
+  "agreementDateTo": null,
+  "country": "SPAIN",
+  "personBirthDate": "2000-01-10",
+  "medicalRiskLimitLevel": "LEVEL_10000",
+  "risks": [
+    "TRAVEL_CANCELLATION"
+  ]
+}

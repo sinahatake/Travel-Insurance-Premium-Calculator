@@ -1,0 +1,12 @@
+{
+  "errors": [
+    {
+      "errorCode": "ERROR_CODE_3",
+      "description": "End date must be in the future!"
+    },
+    {
+      "errorCode": "ERROR_CODE_5",
+      "description": "Start date must be before end date!"
+    }
+  ]
+}

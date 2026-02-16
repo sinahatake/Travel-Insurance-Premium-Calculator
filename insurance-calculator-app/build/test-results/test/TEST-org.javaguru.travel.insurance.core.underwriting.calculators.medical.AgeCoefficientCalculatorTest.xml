@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.javaguru.travel.insurance.core.underwriting.calculators.medical.AgeCoefficientCalculatorTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-10-18T10:28:39" hostname="DESKTOP-0C0N9P6" time="0.265">
+  <properties/>
+  <testcase name="Should return correct coefficient for age" classname="org.javaguru.travel.insurance.core.underwriting.calculators.medical.AgeCoefficientCalculatorTest" time="0.258"/>
+  <testcase name="Should throw exception if age coefficient not found" classname="org.javaguru.travel.insurance.core.underwriting.calculators.medical.AgeCoefficientCalculatorTest" time="0.004"/>
+  <testcase name="Should return default coefficient when ageCoefficientEnabled is false" classname="org.javaguru.travel.insurance.core.underwriting.calculators.medical.AgeCoefficientCalculatorTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.javaguru.travel.insurance.core.services.AgreementPersonsPremiumCalculatorTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-10-18T10:28:38" hostname="DESKTOP-0C0N9P6" time="0.542">
+  <properties/>
+  <testcase name="shouldHandleEmptyPersonList()" classname="org.javaguru.travel.insurance.core.services.AgreementPersonsPremiumCalculatorTest" time="0.4"/>
+  <testcase name="shouldHandleOnePersonWithNoRisks()" classname="org.javaguru.travel.insurance.core.services.AgreementPersonsPremiumCalculatorTest" time="0.128"/>
+  <testcase name="shouldCalculateAndSetRiskPremiumsForAllPersons()" classname="org.javaguru.travel.insurance.core.services.AgreementPersonsPremiumCalculatorTest" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

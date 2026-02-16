@@ -1,0 +1,315 @@
+2025-10-18 13:28:28,144 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.javaguru.travel.insurance.core.repositories.AgeCoefficientRepositoryTest]: AgeCoefficientRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-10-18 13:28:28,463 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.javaguru.travel.insurance.InsuranceApplication for test class org.javaguru.travel.insurance.core.repositories.AgeCoefficientRepositoryTest
+2025-10-18 13:28:29,106 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-10-18 13:28:29,221 [Test worker] INFO  o.j.t.i.c.r.AgeCoefficientRepositoryTest - Starting AgeCoefficientRepositoryTest using Java 21.0.4 with PID 22068 (started by Sinahatake in C:\Users\Sinahatake\IdeaProjects\2025_virtual_internship\student_nastya_loktionova_v2\insurance-calculator-app)
+2025-10-18 13:28:29,222 [Test worker] INFO  o.j.t.i.c.r.AgeCoefficientRepositoryTest - No active profile set, falling back to 1 default profile: "default"
+2025-10-18 13:28:30,274 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-18 13:28:30,755 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 460 ms. Found 12 JPA repository interfaces.
+2025-10-18 13:28:30,927 [Test worker] INFO  o.s.b.t.a.j.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor - Replacing 'dataSource' DataSource bean with embedded version
+2025-10-18 13:28:31,199 [Test worker] INFO  o.s.j.d.e.EmbeddedDatabaseFactory - Starting embedded database: url='jdbc:h2:mem:97920039-a7ef-482f-abc3-a49f114a0fbd;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2025-10-18 13:28:31,973 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-18 13:28:32,132 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-10-18 13:28:32,196 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-18 13:28:32,811 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-18 13:28:32,909 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-18 13:28:32,937 [Test worker] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory$EmbeddedDataSourceProxy@459d2ee6']
+	Database driver: undefined/unknown
+	Database version: 2.2.224
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-18 13:28:34,607 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-18 13:28:34,674 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-18 13:28:35,673 [Test worker] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-10-18 13:28:37,060 [Test worker] INFO  o.j.t.i.c.r.AgeCoefficientRepositoryTest - Started AgeCoefficientRepositoryTest in 8.444 seconds (process running for 11.237)
+2025-10-18 13:28:38,171 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.javaguru.travel.insurance.core.repositories.ClassifierRepositoryTest]: ClassifierRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-10-18 13:28:38,197 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.javaguru.travel.insurance.InsuranceApplication for test class org.javaguru.travel.insurance.core.repositories.ClassifierRepositoryTest
+2025-10-18 13:28:38,293 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.javaguru.travel.insurance.core.repositories.ClassifierValueRepositoryTest]: ClassifierValueRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-10-18 13:28:38,307 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.javaguru.travel.insurance.InsuranceApplication for test class org.javaguru.travel.insurance.core.repositories.ClassifierValueRepositoryTest
+2025-10-18 13:28:38,482 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.javaguru.travel.insurance.core.repositories.CountryDefaultDayRateRepositoryTest]: CountryDefaultDayRateRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-10-18 13:28:38,495 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.javaguru.travel.insurance.InsuranceApplication for test class org.javaguru.travel.insurance.core.repositories.CountryDefaultDayRateRepositoryTest
+2025-10-18 13:28:38,551 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.javaguru.travel.insurance.core.repositories.MedicalRiskLimitLevelRepositoryTest]: MedicalRiskLimitLevelRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-10-18 13:28:38,568 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.javaguru.travel.insurance.InsuranceApplication for test class org.javaguru.travel.insurance.core.repositories.MedicalRiskLimitLevelRepositoryTest
+2025-10-18 13:28:40,698 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.javaguru.travel.insurance.core.underwriting.integration.medical.AgeCoefficientSwitchDisabledIntegrationTest]: AgeCoefficientSwitchDisabledIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-10-18 13:28:40,805 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.javaguru.travel.insurance.InsuranceApplication for test class org.javaguru.travel.insurance.core.underwriting.integration.medical.AgeCoefficientSwitchDisabledIntegrationTest
+2025-10-18 13:28:40,943 [Test worker] INFO  o.j.t.i.c.u.i.m.AgeCoefficientSwitchDisabledIntegrationTest - Starting AgeCoefficientSwitchDisabledIntegrationTest using Java 21.0.4 with PID 22068 (started by Sinahatake in C:\Users\Sinahatake\IdeaProjects\2025_virtual_internship\student_nastya_loktionova_v2\insurance-calculator-app)
+2025-10-18 13:28:40,944 [Test worker] INFO  o.j.t.i.c.u.i.m.AgeCoefficientSwitchDisabledIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+2025-10-18 13:28:42,655 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-18 13:28:42,785 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 126 ms. Found 12 JPA repository interfaces.
+2025-10-18 13:28:43,083 [Test worker] INFO  o.s.b.t.a.j.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor - Replacing 'dataSource' DataSource bean with embedded version
+2025-10-18 13:28:43,660 [Test worker] INFO  o.s.j.d.e.EmbeddedDatabaseFactory - Starting embedded database: url='jdbc:h2:mem:44ccf4e4-deca-463c-b188-96de0a140527;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2025-10-18 13:28:43,765 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-18 13:28:43,772 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-18 13:28:43,787 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-18 13:28:43,792 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-18 13:28:43,793 [Test worker] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory$EmbeddedDataSourceProxy@7094dc0']
+	Database driver: undefined/unknown
+	Database version: 2.2.224
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-18 13:28:43,973 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-18 13:28:43,978 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-18 13:28:46,616 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-18 13:28:47,551 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-10-18 13:28:47,551 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-10-18 13:28:47,554 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-10-18 13:28:47,643 [Test worker] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2025-10-18 13:28:47,723 [Test worker] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#47c9b8ee:0/SimpleConnection@43c9c0b5 [delegate=amqp://guest@127.0.0.1:5672/, localPort=5985]
+2025-10-18 13:28:47,809 [Test worker] INFO  o.j.t.i.c.u.i.m.AgeCoefficientSwitchDisabledIntegrationTest - Started AgeCoefficientSwitchDisabledIntegrationTest in 6.965 seconds (process running for 21.986)
+2025-10-18 13:28:47,934 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+2025-10-18 13:28:48,801 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2025-10-18 13:28:48,819 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-18 13:28:48,823 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.javaguru.travel.insurance.core.underwriting.integration.medical.AgeCoefficientSwitchEnabledIntegrationTest]: AgeCoefficientSwitchEnabledIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-10-18 13:28:48,826 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.javaguru.travel.insurance.InsuranceApplication for test class org.javaguru.travel.insurance.core.underwriting.integration.medical.AgeCoefficientSwitchEnabledIntegrationTest
+2025-10-18 13:28:48,877 [Test worker] INFO  o.j.t.i.c.u.i.m.AgeCoefficientSwitchEnabledIntegrationTest - Starting AgeCoefficientSwitchEnabledIntegrationTest using Java 21.0.4 with PID 22068 (started by Sinahatake in C:\Users\Sinahatake\IdeaProjects\2025_virtual_internship\student_nastya_loktionova_v2\insurance-calculator-app)
+2025-10-18 13:28:48,877 [Test worker] INFO  o.j.t.i.c.u.i.m.AgeCoefficientSwitchEnabledIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+2025-10-18 13:28:49,287 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-18 13:28:49,343 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 53 ms. Found 12 JPA repository interfaces.
+2025-10-18 13:28:49,385 [Test worker] INFO  o.s.b.t.a.j.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor - Replacing 'dataSource' DataSource bean with embedded version
+2025-10-18 13:28:49,418 [Test worker] INFO  o.s.j.d.e.EmbeddedDatabaseFactory - Starting embedded database: url='jdbc:h2:mem:76b7d135-1b92-4170-80f6-49bf4dc77057;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2025-10-18 13:28:49,492 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-18 13:28:49,495 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-18 13:28:49,510 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-18 13:28:49,511 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-18 13:28:49,512 [Test worker] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory$EmbeddedDataSourceProxy@4a5dbec']
+	Database driver: undefined/unknown
+	Database version: 2.2.224
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-18 13:28:49,639 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-18 13:28:49,641 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-18 13:28:49,919 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-18 13:28:50,058 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-10-18 13:28:50,059 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-10-18 13:28:50,059 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2025-10-18 13:28:50,069 [Test worker] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2025-10-18 13:28:50,080 [Test worker] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#55150964:0/SimpleConnection@76d3e702 [delegate=amqp://guest@127.0.0.1:5672/, localPort=5986]
+2025-10-18 13:28:50,099 [Test worker] INFO  o.j.t.i.c.u.i.m.AgeCoefficientSwitchEnabledIntegrationTest - Started AgeCoefficientSwitchEnabledIntegrationTest in 1.27 seconds (process running for 24.276)
+2025-10-18 13:28:50,128 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+2025-10-18 13:28:51,102 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2025-10-18 13:28:51,109 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-18 13:28:51,112 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.javaguru.travel.insurance.core.underwriting.integration.medical.LimitLevelSwitchDisabledIntegrationTest]: LimitLevelSwitchDisabledIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-10-18 13:28:51,115 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.javaguru.travel.insurance.InsuranceApplication for test class org.javaguru.travel.insurance.core.underwriting.integration.medical.LimitLevelSwitchDisabledIntegrationTest
+2025-10-18 13:28:51,153 [Test worker] INFO  o.j.t.i.c.u.i.m.LimitLevelSwitchDisabledIntegrationTest - Starting LimitLevelSwitchDisabledIntegrationTest using Java 21.0.4 with PID 22068 (started by Sinahatake in C:\Users\Sinahatake\IdeaProjects\2025_virtual_internship\student_nastya_loktionova_v2\insurance-calculator-app)
+2025-10-18 13:28:51,154 [Test worker] INFO  o.j.t.i.c.u.i.m.LimitLevelSwitchDisabledIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+2025-10-18 13:28:51,407 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-18 13:28:51,454 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 12 JPA repository interfaces.
+2025-10-18 13:28:51,484 [Test worker] INFO  o.s.b.t.a.j.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor - Replacing 'dataSource' DataSource bean with embedded version
+2025-10-18 13:28:51,508 [Test worker] INFO  o.s.j.d.e.EmbeddedDatabaseFactory - Starting embedded database: url='jdbc:h2:mem:11cbf18a-205d-493d-bd6c-fe48948ef5fb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2025-10-18 13:28:51,561 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-18 13:28:51,565 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-18 13:28:51,577 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-18 13:28:51,579 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-18 13:28:51,579 [Test worker] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory$EmbeddedDataSourceProxy@5db16956']
+	Database driver: undefined/unknown
+	Database version: 2.2.224
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-18 13:28:51,674 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-18 13:28:51,677 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-18 13:28:51,893 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-18 13:28:52,001 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-10-18 13:28:52,001 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-10-18 13:28:52,002 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-10-18 13:28:52,015 [Test worker] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2025-10-18 13:28:52,025 [Test worker] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#1ef15e13:0/SimpleConnection@10238795 [delegate=amqp://guest@127.0.0.1:5672/, localPort=5988]
+2025-10-18 13:28:52,046 [Test worker] INFO  o.j.t.i.c.u.i.m.LimitLevelSwitchDisabledIntegrationTest - Started LimitLevelSwitchDisabledIntegrationTest in 0.927 seconds (process running for 26.223)
+2025-10-18 13:28:52,068 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+2025-10-18 13:28:53,059 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2025-10-18 13:28:53,066 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-18 13:28:53,069 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.javaguru.travel.insurance.core.underwriting.integration.medical.LimitLevelSwitchEnabledIntegrationTest]: LimitLevelSwitchEnabledIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-10-18 13:28:53,074 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.javaguru.travel.insurance.InsuranceApplication for test class org.javaguru.travel.insurance.core.underwriting.integration.medical.LimitLevelSwitchEnabledIntegrationTest
+2025-10-18 13:28:53,103 [Test worker] INFO  o.j.t.i.c.u.i.m.LimitLevelSwitchEnabledIntegrationTest - Starting LimitLevelSwitchEnabledIntegrationTest using Java 21.0.4 with PID 22068 (started by Sinahatake in C:\Users\Sinahatake\IdeaProjects\2025_virtual_internship\student_nastya_loktionova_v2\insurance-calculator-app)
+2025-10-18 13:28:53,103 [Test worker] INFO  o.j.t.i.c.u.i.m.LimitLevelSwitchEnabledIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+2025-10-18 13:28:53,297 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-18 13:28:53,331 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33 ms. Found 12 JPA repository interfaces.
+2025-10-18 13:28:53,390 [Test worker] INFO  o.s.b.t.a.j.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor - Replacing 'dataSource' DataSource bean with embedded version
+2025-10-18 13:28:53,410 [Test worker] INFO  o.s.j.d.e.EmbeddedDatabaseFactory - Starting embedded database: url='jdbc:h2:mem:11799c1d-5e7c-4e06-8206-c5a7cf627375;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2025-10-18 13:28:53,465 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-18 13:28:53,469 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-18 13:28:53,478 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-18 13:28:53,480 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-18 13:28:53,480 [Test worker] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory$EmbeddedDataSourceProxy@508ddde']
+	Database driver: undefined/unknown
+	Database version: 2.2.224
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-18 13:28:53,538 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-18 13:28:53,541 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-18 13:28:53,687 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-18 13:28:53,782 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-10-18 13:28:53,782 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-10-18 13:28:53,783 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-10-18 13:28:53,792 [Test worker] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2025-10-18 13:28:53,801 [Test worker] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#485aee0:0/SimpleConnection@fb11c7d [delegate=amqp://guest@127.0.0.1:5672/, localPort=5989]
+2025-10-18 13:28:53,818 [Test worker] INFO  o.j.t.i.c.u.i.m.LimitLevelSwitchEnabledIntegrationTest - Started LimitLevelSwitchEnabledIntegrationTest in 0.741 seconds (process running for 27.996)
+2025-10-18 13:28:53,842 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+2025-10-18 13:28:54,828 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2025-10-18 13:28:54,835 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-18 13:28:55,408 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.javaguru.travel.insurance.core.validations.integration.AgreementDateFromValidationIntegrationTest]: AgreementDateFromValidationIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-10-18 13:28:55,435 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.javaguru.travel.insurance.InsuranceApplication for test class org.javaguru.travel.insurance.core.validations.integration.AgreementDateFromValidationIntegrationTest
+2025-10-18 13:28:55,484 [Test worker] INFO  o.j.t.i.c.v.i.AgreementDateFromValidationIntegrationTest - Starting AgreementDateFromValidationIntegrationTest using Java 21.0.4 with PID 22068 (started by Sinahatake in C:\Users\Sinahatake\IdeaProjects\2025_virtual_internship\student_nastya_loktionova_v2\insurance-calculator-app)
+2025-10-18 13:28:55,485 [Test worker] INFO  o.j.t.i.c.v.i.AgreementDateFromValidationIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+2025-10-18 13:28:55,708 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-18 13:28:55,754 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 12 JPA repository interfaces.
+2025-10-18 13:28:55,867 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-18 13:28:55,903 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn62: url=jdbc:h2:mem:testdb user=SA
+2025-10-18 13:28:55,906 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-10-18 13:28:55,983 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-18 13:28:55,985 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-18 13:28:55,998 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-18 13:28:56,002 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-18 13:28:56,003 [Test worker] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.2.224
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-18 13:28:56,078 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-18 13:28:56,084 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-18 13:28:56,254 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-18 13:28:56,348 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-10-18 13:28:56,348 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-10-18 13:28:56,349 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-10-18 13:28:56,359 [Test worker] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2025-10-18 13:28:56,371 [Test worker] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#3e0b3dde:0/SimpleConnection@773db057 [delegate=amqp://guest@127.0.0.1:5672/, localPort=5990]
+2025-10-18 13:28:56,390 [Test worker] INFO  o.j.t.i.c.v.i.AgreementDateFromValidationIntegrationTest - Started AgreementDateFromValidationIntegrationTest in 0.953 seconds (process running for 30.568)
+2025-10-18 13:28:56,476 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.javaguru.travel.insurance.core.validations.integration.ValidationDateOfBirthIntegrationTest]: ValidationDateOfBirthIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-10-18 13:28:56,482 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.javaguru.travel.insurance.InsuranceApplication for test class org.javaguru.travel.insurance.core.validations.integration.ValidationDateOfBirthIntegrationTest
+2025-10-18 13:28:56,508 [Test worker] INFO  o.j.t.i.c.v.i.ValidationDateOfBirthIntegrationTest - Starting ValidationDateOfBirthIntegrationTest using Java 21.0.4 with PID 22068 (started by Sinahatake in C:\Users\Sinahatake\IdeaProjects\2025_virtual_internship\student_nastya_loktionova_v2\insurance-calculator-app)
+2025-10-18 13:28:56,509 [Test worker] INFO  o.j.t.i.c.v.i.ValidationDateOfBirthIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+2025-10-18 13:28:56,707 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-18 13:28:56,746 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 12 JPA repository interfaces.
+2025-10-18 13:28:56,772 [Test worker] INFO  o.s.b.t.a.j.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor - Replacing 'dataSource' DataSource bean with embedded version
+2025-10-18 13:28:56,807 [Test worker] INFO  o.s.j.d.e.EmbeddedDatabaseFactory - Starting embedded database: url='jdbc:h2:mem:c9f08760-aeff-4b1c-983b-43353fe9dfb4;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2025-10-18 13:28:56,886 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-18 13:28:56,889 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-18 13:28:56,900 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-18 13:28:56,902 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-18 13:28:56,902 [Test worker] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory$EmbeddedDataSourceProxy@4c02be34']
+	Database driver: undefined/unknown
+	Database version: 2.2.224
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-18 13:28:56,969 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-18 13:28:56,973 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-18 13:28:57,130 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-18 13:28:57,215 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-10-18 13:28:57,215 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-10-18 13:28:57,215 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2025-10-18 13:28:57,225 [Test worker] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2025-10-18 13:28:57,233 [Test worker] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#7d4e4df4:0/SimpleConnection@6dd11d81 [delegate=amqp://guest@127.0.0.1:5672/, localPort=5991]
+2025-10-18 13:28:57,247 [Test worker] INFO  o.j.t.i.c.v.i.ValidationDateOfBirthIntegrationTest - Started ValidationDateOfBirthIntegrationTest in 0.762 seconds (process running for 31.424)
+2025-10-18 13:28:57,304 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+2025-10-18 13:28:58,256 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2025-10-18 13:28:58,262 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-18 13:28:58,266 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.javaguru.travel.insurance.core.validations.integration.ValidationPersonLastNameIntegrationTest]: ValidationPersonLastNameIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-10-18 13:28:58,268 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.javaguru.travel.insurance.InsuranceApplication for test class org.javaguru.travel.insurance.core.validations.integration.ValidationPersonLastNameIntegrationTest
+2025-10-18 13:28:58,488 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.javaguru.travel.insurance.rest.internal.TravelGetAgreementControllerTestCase1]: TravelGetAgreementControllerTestCase1 does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-10-18 13:28:58,504 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.javaguru.travel.insurance.InsuranceApplication for test class org.javaguru.travel.insurance.rest.internal.TravelGetAgreementControllerTestCase1
+2025-10-18 13:28:58,658 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumRequestLoggerV2 - REQUEST: {"agreementDateFrom":[2040,5,25],"agreementDateTo":[2040,5,29],"country":"SPAIN","persons":[{"personCode":"010882-11034","personFirstName":"Vasja","personLastName":"Pupkin","medicalRiskLimitLevel":"LEVEL_10000","personBirthDate":[2000,5,29]},{"personCode":"010882-11034","personFirstName":"Petja","personLastName":"Pupkin","medicalRiskLimitLevel":"LEVEL_20000","personBirthDate":[1950,2,28]}],"risks":["TRAVEL_MEDICAL"]}
+2025-10-18 13:28:58,792 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumResponseLoggerV2 - RESPONSE: {"uuid":"ace99963-dbc6-4852-ae53-91c28dfdd7a0","agreementDateFrom":[2040,5,25],"agreementDateTo":[2040,5,29],"agreementPremium":33.50,"country":"SPAIN","persons":[{"personCode":"010882-11034","personFirstName":"Vasja","personLastName":"Pupkin","personBirthDate":[2000,5,29],"medicalRiskLimitLevel":"LEVEL_10000","personPremium":11.00,"personRisks":[{"riskIc":"TRAVEL_MEDICAL","premium":11.00}]},{"personCode":"010882-11034","personFirstName":"Petja","personLastName":"Pupkin","personBirthDate":[1950,2,28],"medicalRiskLimitLevel":"LEVEL_20000","personPremium":22.50,"personRisks":[{"riskIc":"TRAVEL_MEDICAL","premium":22.50}]}]}
+2025-10-18 13:28:58,794 [Test worker] INFO  o.j.t.i.r.c.TravelCalculatePremiumRequestExecutionTimeLogger - Request processing time: 152 ms
+2025-10-18 13:28:58,849 [Test worker] INFO  o.j.t.i.r.i.TravelGetAgreementRequestLogger - UUID: ace99963-dbc6-4852-ae53-91c28dfdd7a0
+2025-10-18 13:28:58,887 [Test worker] INFO  o.j.t.i.r.i.TravelGetAgreementResponseLogger - RESPONSE: {"uuid":"ace99963-dbc6-4852-ae53-91c28dfdd7a0","agreementDateFrom":"2040-05-25","agreementDateTo":"2040-05-29","country":"SPAIN","agreementPremium":33.50,"persons":[{"personCode":"010882-11034","personFirstName":"Vasja","personLastName":"Pupkin","personBirthDate":[2000,5,29],"medicalRiskLimitLevel":"LEVEL_10000","personPremium":11.00,"personRisks":[{"riskIc":"TRAVEL_MEDICAL","premium":11.00}]},{"personCode":"010882-11034","personFirstName":"Petja","personLastName":"Pupkin","personBirthDate":[1950,2,28],"medicalRiskLimitLevel":"LEVEL_20000","personPremium":22.50,"personRisks":[{"riskIc":"TRAVEL_MEDICAL","premium":22.50}]}]}
+2025-10-18 13:28:58,887 [Test worker] INFO  o.j.t.i.r.c.TravelCalculatePremiumRequestExecutionTimeLogger - Request processing time: 37 ms
+2025-10-18 13:28:58,923 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.javaguru.travel.insurance.rest.internal.TravelGetAgreementControllerTestCase2]: TravelGetAgreementControllerTestCase2 does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-10-18 13:28:58,924 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.javaguru.travel.insurance.InsuranceApplication for test class org.javaguru.travel.insurance.rest.internal.TravelGetAgreementControllerTestCase2
+2025-10-18 13:28:58,930 [Test worker] INFO  o.j.t.i.r.i.TravelGetAgreementRequestLogger - UUID: UNKNOWN_UUID
+2025-10-18 13:28:58,936 [Test worker] INFO  o.j.t.i.r.i.TravelGetAgreementResponseLogger - RESPONSE: {"errors":[{"errorCode":"ERROR_CODE_18","description":"Uuid = UNKNOWN_UUID not supported!"}]}
+2025-10-18 13:28:58,936 [Test worker] INFO  o.j.t.i.r.c.TravelCalculatePremiumRequestExecutionTimeLogger - Request processing time: 6 ms
+2025-10-18 13:28:58,947 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.javaguru.travel.insurance.rest.v1.TravelCalculatePremiumControllerTestV1]: TravelCalculatePremiumControllerTestV1 does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-10-18 13:28:58,967 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.javaguru.travel.insurance.InsuranceApplication for test class org.javaguru.travel.insurance.rest.v1.TravelCalculatePremiumControllerTestV1
+2025-10-18 13:28:58,981 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumRequestLoggerV1 - REQUEST: {"personCode":"010882-11034","personFirstName":"Anna","personLastName":"Smith","agreementDateFrom":[2028,3,1],"agreementDateTo":[2028,3,10],"country":"SPAIN","personBirthDate":[2000,1,10],"medicalRiskLimitLevel":"LEVEL_10000","risks":[]}
+2025-10-18 13:28:58,992 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumResponseLoggerV1 - RESPONSE: {"errors":[{"errorCode":"ERROR_CODE_6","description":"Selected Risks Must not be empty!"}]}
+2025-10-18 13:28:58,992 [Test worker] INFO  o.j.t.i.r.c.TravelCalculatePremiumRequestExecutionTimeLogger - Request processing time: 13 ms
+2025-10-18 13:28:59,004 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumRequestLoggerV1 - REQUEST: {"personCode":"010882-11034","personFirstName":"Anna","personLastName":"","agreementDateFrom":[2028,3,1],"agreementDateTo":[2028,3,10],"country":"SPAIN","personBirthDate":[2000,1,10],"medicalRiskLimitLevel":"LEVEL_10000","risks":["TRAVEL_CANCELLATION"]}
+2025-10-18 13:28:59,013 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumResponseLoggerV1 - RESPONSE: {"errors":[{"errorCode":"ERROR_CODE_8","description":"Person Last Name Must not be empty!"}]}
+2025-10-18 13:28:59,013 [Test worker] INFO  o.j.t.i.r.c.TravelCalculatePremiumRequestExecutionTimeLogger - Request processing time: 11 ms
+2025-10-18 13:28:59,023 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumRequestLoggerV1 - REQUEST: {"personCode":"010882-11034","personFirstName":"Anna","personLastName":"Smith","agreementDateFrom":[2028,3,1],"agreementDateTo":[2028,3,10],"country":"SPAIN","personBirthDate":[2000,1,10],"medicalRiskLimitLevel":"50000","risks":["TRAVEL_MEDICAL"]}
+2025-10-18 13:28:59,031 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumResponseLoggerV1 - RESPONSE: {"errors":[{"errorCode":"ERROR_CODE_15","description":"MedicalRiskLimitLevel = 50000 not supported!"}]}
+2025-10-18 13:28:59,032 [Test worker] INFO  o.j.t.i.r.c.TravelCalculatePremiumRequestExecutionTimeLogger - Request processing time: 10 ms
+2025-10-18 13:28:59,039 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumRequestLoggerV1 - REQUEST: {"personCode":"010882-11034","personFirstName":"Anna","personLastName":"Smith","agreementDateFrom":[2028,3,1],"agreementDateTo":[2028,3,10],"country":"","personBirthDate":[2000,1,10],"medicalRiskLimitLevel":"LEVEL_10000","risks":["TRAVEL_MEDICAL"]}
+2025-10-18 13:28:59,048 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumResponseLoggerV1 - RESPONSE: {"errors":[{"errorCode":"ERROR_CODE_10","description":"Country must not be null!"}]}
+2025-10-18 13:28:59,048 [Test worker] INFO  o.j.t.i.r.c.TravelCalculatePremiumRequestExecutionTimeLogger - Request processing time: 9 ms
+2025-10-18 13:28:59,058 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumRequestLoggerV1 - REQUEST: {"personCode":"010882-11034","personFirstName":"Anna","personLastName":"Smith","agreementDateFrom":[2028,3,1],"agreementDateTo":[2028,3,10],"country":"SPAIN","personBirthDate":[2000,1,10],"medicalRiskLimitLevel":"LEVEL_10000","risks":["UNKNOWN_RISK"]}
+2025-10-18 13:28:59,068 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumResponseLoggerV1 - RESPONSE: {"errors":[{"errorCode":"ERROR_CODE_9","description":"Risk Type ic = UNKNOWN_RISK not supported!"}]}
+2025-10-18 13:28:59,068 [Test worker] INFO  o.j.t.i.r.c.TravelCalculatePremiumRequestExecutionTimeLogger - Request processing time: 12 ms
+2025-10-18 13:28:59,079 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumRequestLoggerV1 - REQUEST: {"personCode":"010882-11034","personFirstName":"Anna","personLastName":"Smith","agreementDateFrom":[2028,3,1],"agreementDateTo":[2028,3,10],"country":"SPAIN","personBirthDate":[2000,1,10],"medicalRiskLimitLevel":"LEVEL_10000","risks":["TRAVEL_MEDICAL"]}
+2025-10-18 13:28:59,109 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumResponseLoggerV1 - RESPONSE: {"uuid":"e110cfb1-89b7-4104-b6e3-2140ef2b4a09","personCode":"010882-11034","personFirstName":"Anna","personLastName":"Smith","agreementDateFrom":[2028,3,1],"agreementDateTo":[2028,3,10],"agreementPremium":24.75,"country":"SPAIN","personBirthDate":[2000,1,10],"medicalRiskLimitLevel":"LEVEL_10000","risks":[{"riskIc":"TRAVEL_MEDICAL","premium":24.75}]}
+2025-10-18 13:28:59,109 [Test worker] INFO  o.j.t.i.r.c.TravelCalculatePremiumRequestExecutionTimeLogger - Request processing time: 31 ms
+2025-10-18 13:28:59,118 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumRequestLoggerV1 - REQUEST: {"personCode":"010882-11034","personFirstName":"Anna","personLastName":"Smith","agreementDateFrom":[2028,3,1],"agreementDateTo":[2028,3,10],"country":"SPAIN","personBirthDate":[2000,1,10],"medicalRiskLimitLevel":"","risks":["TRAVEL_MEDICAL"]}
+2025-10-18 13:28:59,127 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumResponseLoggerV1 - RESPONSE: {"errors":[{"errorCode":"ERROR_CODE_14","description":"MedicalRiskLimitLevel must not be null!"}]}
+2025-10-18 13:28:59,127 [Test worker] INFO  o.j.t.i.r.c.TravelCalculatePremiumRequestExecutionTimeLogger - Request processing time: 10 ms
+2025-10-18 13:28:59,136 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumRequestLoggerV1 - REQUEST: {"personCode":"010882-11034","personFirstName":"Anna","personLastName":"Smith","agreementDateFrom":[2028,3,1],"agreementDateTo":[2028,3,10],"country":"NOT_A_COUNTRY","personBirthDate":[2000,1,10],"medicalRiskLimitLevel":"LEVEL_10000","risks":["TRAVEL_MEDICAL"]}
+2025-10-18 13:28:59,148 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumResponseLoggerV1 - RESPONSE: {"errors":[{"errorCode":"ERROR_CODE_11","description":"Country = NOT_A_COUNTRY not supported!"}]}
+2025-10-18 13:28:59,148 [Test worker] INFO  o.j.t.i.r.c.TravelCalculatePremiumRequestExecutionTimeLogger - Request processing time: 12 ms
+2025-10-18 13:28:59,157 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumRequestLoggerV1 - REQUEST: {"personCode":"010882-11034","personFirstName":"Anna","personLastName":"Smith","agreementDateFrom":null,"agreementDateTo":[2028,1,1],"country":"SPAIN","personBirthDate":[2000,1,10],"medicalRiskLimitLevel":"LEVEL_10000","risks":["TRAVEL_CANCELLATION"]}
+2025-10-18 13:28:59,169 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumResponseLoggerV1 - RESPONSE: {"errors":[{"errorCode":"ERROR_CODE_2","description":"Date From must not be null!"}]}
+2025-10-18 13:28:59,169 [Test worker] INFO  o.j.t.i.r.c.TravelCalculatePremiumRequestExecutionTimeLogger - Request processing time: 13 ms
+2025-10-18 13:28:59,180 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumRequestLoggerV1 - REQUEST: {"personCode":"010882-11034","personFirstName":"Anna","personLastName":"Smith","agreementDateFrom":[2020,1,1],"agreementDateTo":[2028,1,1],"country":"SPAIN","personBirthDate":[2000,1,10],"medicalRiskLimitLevel":"LEVEL_10000","risks":["TRAVEL_CANCELLATION"]}
+2025-10-18 13:28:59,191 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumResponseLoggerV1 - RESPONSE: {"errors":[{"errorCode":"ERROR_CODE_1","description":"Start date must be in the future!"}]}
+2025-10-18 13:28:59,191 [Test worker] INFO  o.j.t.i.r.c.TravelCalculatePremiumRequestExecutionTimeLogger - Request processing time: 13 ms
+2025-10-18 13:28:59,200 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumRequestLoggerV1 - REQUEST: {"personCode":"010882-11034","personFirstName":"","personLastName":"Smith","agreementDateFrom":[2028,3,1],"agreementDateTo":[2028,3,10],"country":"SPAIN","personBirthDate":[2000,1,10],"medicalRiskLimitLevel":"LEVEL_10000","risks":["TRAVEL_CANCELLATION"]}
+2025-10-18 13:28:59,209 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumResponseLoggerV1 - RESPONSE: {"errors":[{"errorCode":"ERROR_CODE_7","description":"Person First Name Must not be empty!"}]}
+2025-10-18 13:28:59,211 [Test worker] INFO  o.j.t.i.r.c.TravelCalculatePremiumRequestExecutionTimeLogger - Request processing time: 11 ms
+2025-10-18 13:28:59,220 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumRequestLoggerV1 - REQUEST: {"personCode":"010882-11034","personFirstName":"Anna","personLastName":"Smith","agreementDateFrom":[2028,1,1],"agreementDateTo":[2020,1,1],"country":"SPAIN","personBirthDate":[2000,1,10],"medicalRiskLimitLevel":"LEVEL_10000","risks":["TRAVEL_CANCELLATION"]}
+2025-10-18 13:28:59,233 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumResponseLoggerV1 - RESPONSE: {"errors":[{"errorCode":"ERROR_CODE_3","description":"End date must be in the future!"},{"errorCode":"ERROR_CODE_5","description":"Start date must be before end date!"}]}
+2025-10-18 13:28:59,233 [Test worker] INFO  o.j.t.i.r.c.TravelCalculatePremiumRequestExecutionTimeLogger - Request processing time: 14 ms
+2025-10-18 13:28:59,243 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumRequestLoggerV1 - REQUEST: {"personCode":"010882-11034","personFirstName":"Anna","personLastName":"Smith","agreementDateFrom":[2028,3,10],"agreementDateTo":[2028,3,1],"country":"SPAIN","personBirthDate":[2000,1,10],"medicalRiskLimitLevel":"LEVEL_10000","risks":["TRAVEL_CANCELLATION"]}
+2025-10-18 13:28:59,252 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumResponseLoggerV1 - RESPONSE: {"errors":[{"errorCode":"ERROR_CODE_5","description":"Start date must be before end date!"}]}
+2025-10-18 13:28:59,252 [Test worker] INFO  o.j.t.i.r.c.TravelCalculatePremiumRequestExecutionTimeLogger - Request processing time: 10 ms
+2025-10-18 13:28:59,261 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumRequestLoggerV1 - REQUEST: {"personCode":"010882-11034","personFirstName":"Anna","personLastName":"Smith","agreementDateFrom":[2028,1,1],"agreementDateTo":null,"country":"SPAIN","personBirthDate":[2000,1,10],"medicalRiskLimitLevel":"LEVEL_10000","risks":["TRAVEL_CANCELLATION"]}
+2025-10-18 13:28:59,270 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumResponseLoggerV1 - RESPONSE: {"errors":[{"errorCode":"ERROR_CODE_4","description":"Date To must not be null!"}]}
+2025-10-18 13:28:59,270 [Test worker] INFO  o.j.t.i.r.c.TravelCalculatePremiumRequestExecutionTimeLogger - Request processing time: 10 ms
+2025-10-18 13:28:59,274 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.javaguru.travel.insurance.rest.v2.TravelCalculatePremiumControllerTestV2]: TravelCalculatePremiumControllerTestV2 does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-10-18 13:28:59,291 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.javaguru.travel.insurance.InsuranceApplication for test class org.javaguru.travel.insurance.rest.v2.TravelCalculatePremiumControllerTestV2
+2025-10-18 13:28:59,300 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumRequestLoggerV2 - REQUEST: {"agreementDateFrom":[2040,7,15],"agreementDateTo":[2040,7,25],"country":"","persons":[{"personCode":"010882-11034","personFirstName":"Sergey","personLastName":"Ivanov","medicalRiskLimitLevel":"LEVEL_10000","personBirthDate":[1975,9,5]}],"risks":["TRAVEL_MEDICAL"]}
+2025-10-18 13:28:59,310 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumResponseLoggerV2 - RESPONSE: {"errors":[{"errorCode":"ERROR_CODE_10","description":"Country must not be null!"}]}
+2025-10-18 13:28:59,310 [Test worker] INFO  o.j.t.i.r.c.TravelCalculatePremiumRequestExecutionTimeLogger - Request processing time: 11 ms
+2025-10-18 13:28:59,319 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumRequestLoggerV2 - REQUEST: {"agreementDateFrom":[2040,7,15],"agreementDateTo":[2040,7,25],"country":"LATVIA","persons":[{"personCode":"010882-11034","personFirstName":"Sergey","personLastName":"Ivanov","medicalRiskLimitLevel":"LEVEL_1d000","personBirthDate":[1975,9,5]}],"risks":["TRAVEL_MEDICAL"]}
+2025-10-18 13:28:59,328 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumResponseLoggerV2 - RESPONSE: {"errors":[{"errorCode":"ERROR_CODE_15","description":"MedicalRiskLimitLevel = LEVEL_1d000 not supported!"}]}
+2025-10-18 13:28:59,328 [Test worker] INFO  o.j.t.i.r.c.TravelCalculatePremiumRequestExecutionTimeLogger - Request processing time: 9 ms
+2025-10-18 13:28:59,335 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumRequestLoggerV2 - REQUEST: {"agreementDateFrom":[2040,5,25],"agreementDateTo":[2040,5,29],"country":"SPAIN","persons":[{"personCode":"010882-11034","personFirstName":"Vasja","personLastName":"Pupkin","medicalRiskLimitLevel":"LEVEL_10000","personBirthDate":[2000,5,29]},{"personCode":"010882-11032","personFirstName":"Petja","personLastName":"Pupkin","medicalRiskLimitLevel":"LEVEL_20000","personBirthDate":[1950,2,28]}],"risks":["TRAVEL_MEDICAL"]}
+2025-10-18 13:28:59,369 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumResponseLoggerV2 - RESPONSE: {"uuid":"44499b96-faba-4f6c-a289-1cc2d9f4128d","agreementDateFrom":[2040,5,25],"agreementDateTo":[2040,5,29],"agreementPremium":33.50,"country":"SPAIN","persons":[{"personCode":"010882-11034","personFirstName":"Vasja","personLastName":"Pupkin","personBirthDate":[2000,5,29],"medicalRiskLimitLevel":"LEVEL_10000","personPremium":11.00,"personRisks":[{"riskIc":"TRAVEL_MEDICAL","premium":11.00}]},{"personCode":"010882-11032","personFirstName":"Petja","personLastName":"Pupkin","personBirthDate":[1950,2,28],"medicalRiskLimitLevel":"LEVEL_20000","personPremium":22.50,"personRisks":[{"riskIc":"TRAVEL_MEDICAL","premium":22.50}]}]}
+2025-10-18 13:28:59,369 [Test worker] INFO  o.j.t.i.r.c.TravelCalculatePremiumRequestExecutionTimeLogger - Request processing time: 34 ms
+2025-10-18 13:28:59,379 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumRequestLoggerV2 - REQUEST: {"agreementDateFrom":[2040,7,15],"agreementDateTo":[2040,7,25],"country":"fgdg","persons":[{"personCode":"010882-11034","personFirstName":"Sergey","personLastName":"Ivanov","medicalRiskLimitLevel":"LEVEL_10000","personBirthDate":[1975,9,5]}],"risks":["TRAVEL_MEDICAL"]}
+2025-10-18 13:28:59,388 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumResponseLoggerV2 - RESPONSE: {"errors":[{"errorCode":"ERROR_CODE_11","description":"Country = fgdg not supported!"}]}
+2025-10-18 13:28:59,388 [Test worker] INFO  o.j.t.i.r.c.TravelCalculatePremiumRequestExecutionTimeLogger - Request processing time: 10 ms
+2025-10-18 13:28:59,397 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumRequestLoggerV2 - REQUEST: {"agreementDateFrom":[2040,6,1],"agreementDateTo":[2040,6,10],"country":"SPAIN","persons":[{"personCode":"010882-11034","personFirstName":"Ivan","personLastName":"Ivanov","medicalRiskLimitLevel":"LEVEL_10000","personBirthDate":[1995,1,15]}],"risks":["TRAVEL_MEDICAL"]}
+2025-10-18 13:28:59,420 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumResponseLoggerV2 - RESPONSE: {"uuid":"6962a4b5-1f07-460e-b487-9fbed37b2663","agreementDateFrom":[2040,6,1],"agreementDateTo":[2040,6,10],"agreementPremium":24.75,"country":"SPAIN","persons":[{"personCode":"010882-11034","personFirstName":"Ivan","personLastName":"Ivanov","personBirthDate":[1995,1,15],"medicalRiskLimitLevel":"LEVEL_10000","personPremium":24.75,"personRisks":[{"riskIc":"TRAVEL_MEDICAL","premium":24.75}]}]}
+2025-10-18 13:28:59,420 [Test worker] INFO  o.j.t.i.r.c.TravelCalculatePremiumRequestExecutionTimeLogger - Request processing time: 25 ms
+2025-10-18 13:28:59,430 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumRequestLoggerV2 - REQUEST: {"agreementDateFrom":[2040,7,1],"agreementDateTo":[2040,7,10],"country":null,"persons":[{"personCode":"010882-11034","personFirstName":"Olga","personLastName":"Sidorova","medicalRiskLimitLevel":"LEVEL_10000","personBirthDate":[1990,11,11]}],"risks":["TRAVEL_MEDICAL"]}
+2025-10-18 13:28:59,439 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumResponseLoggerV2 - RESPONSE: {"errors":[{"errorCode":"ERROR_CODE_10","description":"Country must not be null!"}]}
+2025-10-18 13:28:59,440 [Test worker] INFO  o.j.t.i.r.c.TravelCalculatePremiumRequestExecutionTimeLogger - Request processing time: 10 ms
+2025-10-18 13:28:59,447 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumRequestLoggerV2 - REQUEST: {"agreementDateFrom":[2040,6,1],"agreementDateTo":[2040,6,10],"country":"SPAIN","persons":[{"personCode":"010882-11034","personFirstName":"Ivan","personLastName":"Ivanov","medicalRiskLimitLevel":"LEVEL_10000","personBirthDate":[1995,1,15]}],"risks":["UNSUPPORTED_RISK"]}
+2025-10-18 13:28:59,457 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumResponseLoggerV2 - RESPONSE: {"errors":[{"errorCode":"ERROR_CODE_9","description":"Risk Type ic = UNSUPPORTED_RISK not supported!"}]}
+2025-10-18 13:28:59,458 [Test worker] INFO  o.j.t.i.r.c.TravelCalculatePremiumRequestExecutionTimeLogger - Request processing time: 11 ms
+2025-10-18 13:28:59,468 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumRequestLoggerV2 - REQUEST: {"agreementDateFrom":[2040,6,5],"agreementDateTo":[2040,6,15],"country":"SPAIN","persons":[{"personCode":"010882-11034","personFirstName":"Petr","personLastName":"Petrov","medicalRiskLimitLevel":"LEVEL_20000","personBirthDate":[1980,3,20]}],"risks":["UNSUPPORTED_RISK_1","UNSUPPORTED_RISK_2"]}
+2025-10-18 13:28:59,479 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumResponseLoggerV2 - RESPONSE: {"errors":[{"errorCode":"ERROR_CODE_9","description":"Risk Type ic = UNSUPPORTED_RISK_1 not supported!"},{"errorCode":"ERROR_CODE_9","description":"Risk Type ic = UNSUPPORTED_RISK_2 not supported!"}]}
+2025-10-18 13:28:59,479 [Test worker] INFO  o.j.t.i.r.c.TravelCalculatePremiumRequestExecutionTimeLogger - Request processing time: 13 ms
+2025-10-18 13:28:59,493 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-18 13:28:59,498 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+2025-10-18 13:29:00,410 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2025-10-18 13:29:00,414 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-18 13:29:00,415 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-10-18 13:29:00,419 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

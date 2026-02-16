@@ -1,0 +1,18 @@
+{
+  "uuid": "IGNORED",
+  "personCode": "010882-11034",
+  "personFirstName": "Anna",
+  "personLastName": "Smith",
+  "agreementDateFrom": "2028-03-01",
+  "agreementDateTo": "2028-03-10",
+  "agreementPremium": 24.75,
+  "country": "SPAIN",
+  "personBirthDate": "2000-01-10",
+  "medicalRiskLimitLevel": "LEVEL_10000",
+  "risks": [
+    {
+      "riskIc": "TRAVEL_MEDICAL",
+      "premium": 24.75
+    }
+  ]
+}

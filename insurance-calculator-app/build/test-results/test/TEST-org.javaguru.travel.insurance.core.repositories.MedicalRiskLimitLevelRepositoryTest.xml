@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.javaguru.travel.insurance.core.repositories.MedicalRiskLimitLevelRepositoryTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-10-18T10:28:38" hostname="DESKTOP-0C0N9P6" time="0.051">
+  <properties/>
+  <testcase name="shouldFindLevel10000()" classname="org.javaguru.travel.insurance.core.repositories.MedicalRiskLimitLevelRepositoryTest" time="0.012"/>
+  <testcase name="shouldFindLevel15000()" classname="org.javaguru.travel.insurance.core.repositories.MedicalRiskLimitLevelRepositoryTest" time="0.009"/>
+  <testcase name="shouldFindLevel20000()" classname="org.javaguru.travel.insurance.core.repositories.MedicalRiskLimitLevelRepositoryTest" time="0.007"/>
+  <testcase name="shouldFindLevel50000()" classname="org.javaguru.travel.insurance.core.repositories.MedicalRiskLimitLevelRepositoryTest" time="0.007"/>
+  <testcase name="shouldNotFindUnknownLevel()" classname="org.javaguru.travel.insurance.core.repositories.MedicalRiskLimitLevelRepositoryTest" time="0.006"/>
+  <testcase name="injectedRepositoryAreNotNull()" classname="org.javaguru.travel.insurance.core.repositories.MedicalRiskLimitLevelRepositoryTest" time="0.004"/>
+  <system-out><![CDATA[2025-10-18 13:28:38,551 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.javaguru.travel.insurance.core.repositories.MedicalRiskLimitLevelRepositoryTest]: MedicalRiskLimitLevelRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-10-18 13:28:38,568 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.javaguru.travel.insurance.InsuranceApplication for test class org.javaguru.travel.insurance.core.repositories.MedicalRiskLimitLevelRepositoryTest
+Hibernate: select mrll1_0.id,mrll1_0.coefficient,mrll1_0.medical_risk_limit_level_ic from medical_risk_limit_level mrll1_0 where mrll1_0.medical_risk_limit_level_ic=?
+Hibernate: select mrll1_0.id,mrll1_0.coefficient,mrll1_0.medical_risk_limit_level_ic from medical_risk_limit_level mrll1_0 where mrll1_0.medical_risk_limit_level_ic=?
+Hibernate: select mrll1_0.id,mrll1_0.coefficient,mrll1_0.medical_risk_limit_level_ic from medical_risk_limit_level mrll1_0 where mrll1_0.medical_risk_limit_level_ic=?
+Hibernate: select mrll1_0.id,mrll1_0.coefficient,mrll1_0.medical_risk_limit_level_ic from medical_risk_limit_level mrll1_0 where mrll1_0.medical_risk_limit_level_ic=?
+Hibernate: select mrll1_0.id,mrll1_0.coefficient,mrll1_0.medical_risk_limit_level_ic from medical_risk_limit_level mrll1_0 where mrll1_0.medical_risk_limit_level_ic=?
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.javaguru.travel.insurance.rest.internal.TravelGetAgreementControllerTestCase2" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-10-18T10:28:58" hostname="DESKTOP-0C0N9P6" time="0.016">
+  <properties/>
+  <testcase name="shouldGetAgreement()" classname="org.javaguru.travel.insurance.rest.internal.TravelGetAgreementControllerTestCase2" time="0.016"/>
+  <system-out><![CDATA[2025-10-18 13:28:58,923 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.javaguru.travel.insurance.rest.internal.TravelGetAgreementControllerTestCase2]: TravelGetAgreementControllerTestCase2 does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-10-18 13:28:58,924 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.javaguru.travel.insurance.InsuranceApplication for test class org.javaguru.travel.insurance.rest.internal.TravelGetAgreementControllerTestCase2
+2025-10-18 13:28:58,930 [Test worker] INFO  o.j.t.i.r.i.TravelGetAgreementRequestLogger - UUID: UNKNOWN_UUID
+Hibernate: select ae1_0.id,ae1_0.date_from,ae1_0.date_to,ae1_0.premium,ae1_0.country,ae1_0.uuid from agreements ae1_0 where ae1_0.uuid=?
+2025-10-18 13:28:58,936 [Test worker] INFO  o.j.t.i.r.i.TravelGetAgreementResponseLogger - RESPONSE: {"errors":[{"errorCode":"ERROR_CODE_18","description":"Uuid = UNKNOWN_UUID not supported!"}]}
+2025-10-18 13:28:58,936 [Test worker] INFO  o.j.t.i.r.c.TravelCalculatePremiumRequestExecutionTimeLogger - Request processing time: 6 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

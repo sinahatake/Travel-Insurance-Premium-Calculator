@@ -1,0 +1,23 @@
+{
+  "uuid": "IGNORED",
+  "agreementDateFrom": "2040-06-01",
+  "agreementDateTo": "2040-06-10",
+  "agreementPremium": 24.75,
+  "country": "SPAIN",
+  "persons": [
+    {
+      "personCode": "010882-11034",
+      "personFirstName": "Ivan",
+      "personLastName": "Ivanov",
+      "personBirthDate": "1995-01-15",
+      "medicalRiskLimitLevel": "LEVEL_10000",
+      "personPremium": 24.75,
+      "personRisks": [
+        {
+          "riskIc": "TRAVEL_MEDICAL",
+          "premium": 24.75
+        }
+      ]
+    }
+  ]
+}

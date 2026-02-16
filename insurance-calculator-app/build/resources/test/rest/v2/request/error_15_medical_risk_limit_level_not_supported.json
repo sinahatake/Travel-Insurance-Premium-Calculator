@@ -1,0 +1,17 @@
+{
+  "agreementDateFrom": "2040-07-15",
+  "agreementDateTo": "2040-07-25",
+  "country": "LATVIA",
+  "risks": [
+    "TRAVEL_MEDICAL"
+  ],
+  "persons": [
+    {
+      "personCode": "010882-11034",
+      "personFirstName": "Sergey",
+      "personLastName": "Ivanov",
+      "personBirthDate": "1975-09-05",
+      "medicalRiskLimitLevel": "LEVEL_1d000"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.javaguru.travel.insurance.rest.v2.TravelCalculatePremiumControllerTestV2" tests="8" skipped="0" failures="0" errors="0" timestamp="2025-10-18T10:28:59" hostname="DESKTOP-0C0N9P6" time="0.189">
+  <properties/>
+  <testcase name="error_10_country_empty_TRAVEL_MEDICAL()" classname="org.javaguru.travel.insurance.rest.v2.TravelCalculatePremiumControllerTestV2" time="0.02"/>
+  <testcase name="error_15_medical_risk_limit_level_not_supported()" classname="org.javaguru.travel.insurance.rest.v2.TravelCalculatePremiumControllerTestV2" time="0.016"/>
+  <testcase name="correctRequest()" classname="org.javaguru.travel.insurance.rest.v2.TravelCalculatePremiumControllerTestV2" time="0.043"/>
+  <testcase name="error_11_country_not_supported_TRAVEL_MEDICAL()" classname="org.javaguru.travel.insurance.rest.v2.TravelCalculatePremiumControllerTestV2" time="0.017"/>
+  <testcase name="correctRequestWith_one_person_single_risk()" classname="org.javaguru.travel.insurance.rest.v2.TravelCalculatePremiumControllerTestV2" time="0.032"/>
+  <testcase name="error_10_country_null_TRAVEL_MEDICAL()" classname="org.javaguru.travel.insurance.rest.v2.TravelCalculatePremiumControllerTestV2" time="0.016"/>
+  <testcase name="error_9_selected_risk_not_supported_one_risk()" classname="org.javaguru.travel.insurance.rest.v2.TravelCalculatePremiumControllerTestV2" time="0.019"/>
+  <testcase name="error_9_selected_risk_not_supported_two_risks()" classname="org.javaguru.travel.insurance.rest.v2.TravelCalculatePremiumControllerTestV2" time="0.02"/>
+  <system-out><![CDATA[2025-10-18 13:28:59,274 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.javaguru.travel.insurance.rest.v2.TravelCalculatePremiumControllerTestV2]: TravelCalculatePremiumControllerTestV2 does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-10-18 13:28:59,291 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.javaguru.travel.insurance.InsuranceApplication for test class org.javaguru.travel.insurance.rest.v2.TravelCalculatePremiumControllerTestV2
+2025-10-18 13:28:59,300 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumRequestLoggerV2 - REQUEST: {"agreementDateFrom":[2040,7,15],"agreementDateTo":[2040,7,25],"country":"","persons":[{"personCode":"010882-11034","personFirstName":"Sergey","personLastName":"Ivanov","medicalRiskLimitLevel":"LEVEL_10000","personBirthDate":[1975,9,5]}],"risks":["TRAVEL_MEDICAL"]}
+Hibernate: select cv1_0.id,cv1_0.classifier_id,cv1_0.description,cv1_0.ic from classifier_values cv1_0 left join classifiers c1_0 on c1_0.id=cv1_0.classifier_id where c1_0.title=? and cv1_0.ic=?
+Hibernate: select c1_0.id,c1_0.description,c1_0.title from classifiers c1_0 where c1_0.id=?
+Hibernate: select cv1_0.id,cv1_0.classifier_id,cv1_0.description,cv1_0.ic from classifier_values cv1_0 left join classifiers c1_0 on c1_0.id=cv1_0.classifier_id where c1_0.title=? and cv1_0.ic=?
+Hibernate: select c1_0.id,c1_0.description,c1_0.title from classifiers c1_0 where c1_0.id=?
+2025-10-18 13:28:59,310 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumResponseLoggerV2 - RESPONSE: {"errors":[{"errorCode":"ERROR_CODE_10","description":"Country must not be null!"}]}
+2025-10-18 13:28:59,310 [Test worker] INFO  o.j.t.i.r.c.TravelCalculatePremiumRequestExecutionTimeLogger - Request processing time: 11 ms
+2025-10-18 13:28:59,319 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumRequestLoggerV2 - REQUEST: {"agreementDateFrom":[2040,7,15],"agreementDateTo":[2040,7,25],"country":"LATVIA","persons":[{"personCode":"010882-11034","personFirstName":"Sergey","personLastName":"Ivanov","medicalRiskLimitLevel":"LEVEL_1d000","personBirthDate":[1975,9,5]}],"risks":["TRAVEL_MEDICAL"]}
+Hibernate: select cv1_0.id,cv1_0.classifier_id,cv1_0.description,cv1_0.ic from classifier_values cv1_0 left join classifiers c1_0 on c1_0.id=cv1_0.classifier_id where c1_0.title=? and cv1_0.ic=?
+Hibernate: select c1_0.id,c1_0.description,c1_0.title from classifiers c1_0 where c1_0.id=?
+Hibernate: select cv1_0.id,cv1_0.classifier_id,cv1_0.description,cv1_0.ic from classifier_values cv1_0 left join classifiers c1_0 on c1_0.id=cv1_0.classifier_id where c1_0.title=? and cv1_0.ic=?
+Hibernate: select c1_0.id,c1_0.description,c1_0.title from classifiers c1_0 where c1_0.id=?
+Hibernate: select cv1_0.id,cv1_0.classifier_id,cv1_0.description,cv1_0.ic from classifier_values cv1_0 left join classifiers c1_0 on c1_0.id=cv1_0.classifier_id where c1_0.title=? and cv1_0.ic=?
+2025-10-18 13:28:59,328 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumResponseLoggerV2 - RESPONSE: {"errors":[{"errorCode":"ERROR_CODE_15","description":"MedicalRiskLimitLevel = LEVEL_1d000 not supported!"}]}
+2025-10-18 13:28:59,328 [Test worker] INFO  o.j.t.i.r.c.TravelCalculatePremiumRequestExecutionTimeLogger - Request processing time: 9 ms
+2025-10-18 13:28:59,335 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumRequestLoggerV2 - REQUEST: {"agreementDateFrom":[2040,5,25],"agreementDateTo":[2040,5,29],"country":"SPAIN","persons":[{"personCode":"010882-11034","personFirstName":"Vasja","personLastName":"Pupkin","medicalRiskLimitLevel":"LEVEL_10000","personBirthDate":[2000,5,29]},{"personCode":"010882-11032","personFirstName":"Petja","personLastName":"Pupkin","medicalRiskLimitLevel":"LEVEL_20000","personBirthDate":[1950,2,28]}],"risks":["TRAVEL_MEDICAL"]}
+Hibernate: select cv1_0.id,cv1_0.classifier_id,cv1_0.description,cv1_0.ic from classifier_values cv1_0 left join classifiers c1_0 on c1_0.id=cv1_0.classifier_id where c1_0.title=? and cv1_0.ic=?
+Hibernate: select c1_0.id,c1_0.description,c1_0.title from classifiers c1_0 where c1_0.id=?
+Hibernate: select cv1_0.id,cv1_0.classifier_id,cv1_0.description,cv1_0.ic from classifier_values cv1_0 left join classifiers c1_0 on c1_0.id=cv1_0.classifier_id where c1_0.title=? and cv1_0.ic=?
+Hibernate: select c1_0.id,c1_0.description,c1_0.title from classifiers c1_0 where c1_0.id=?
+Hibernate: select cv1_0.id,cv1_0.classifier_id,cv1_0.description,cv1_0.ic from classifier_values cv1_0 left join classifiers c1_0 on c1_0.id=cv1_0.classifier_id where c1_0.title=? and cv1_0.ic=?
+Hibernate: select c1_0.id,c1_0.description,c1_0.title from classifiers c1_0 where c1_0.id=?
+Hibernate: select cv1_0.id,cv1_0.classifier_id,cv1_0.description,cv1_0.ic from classifier_values cv1_0 left join classifiers c1_0 on c1_0.id=cv1_0.classifier_id where c1_0.title=? and cv1_0.ic=?
+Hibernate: select cddr1_0.id,cddr1_0.country_ic,cddr1_0.default_day_rate from country_default_day_rate cddr1_0 where cddr1_0.country_ic=?
+Hibernate: select ac1_0.id,ac1_0.age_from,ac1_0.age_to,ac1_0.coefficient from age_coefficient ac1_0 where ? between ac1_0.age_from and ac1_0.age_to
+Hibernate: select mrll1_0.id,mrll1_0.coefficient,mrll1_0.medical_risk_limit_level_ic from medical_risk_limit_level mrll1_0 where mrll1_0.medical_risk_limit_level_ic=?
+Hibernate: select cddr1_0.id,cddr1_0.country_ic,cddr1_0.default_day_rate from country_default_day_rate cddr1_0 where cddr1_0.country_ic=?
+Hibernate: select ac1_0.id,ac1_0.age_from,ac1_0.age_to,ac1_0.coefficient from age_coefficient ac1_0 where ? between ac1_0.age_from and ac1_0.age_to
+Hibernate: select mrll1_0.id,mrll1_0.coefficient,mrll1_0.medical_risk_limit_level_ic from medical_risk_limit_level mrll1_0 where mrll1_0.medical_risk_limit_level_ic=?
+Hibernate: insert into agreements (date_from,date_to,premium,country,uuid,id) values (?,?,?,?,?,default)
+Hibernate: select pe1_0.id,pe1_0.birth_date,pe1_0.first_name,pe1_0.last_name,pe1_0.person_code from persons pe1_0 where pe1_0.first_name=? and pe1_0.last_name=? and pe1_0.person_code=?
+Hibernate: insert into agreement_persons (agreement_id,medical_risk_limit_level,person_id,id) values (?,?,?,default)
+Hibernate: insert into agreement_person_risks (agreement_person_id,premium,risk_ic,id) values (?,?,?,default)
+Hibernate: select pe1_0.id,pe1_0.birth_date,pe1_0.first_name,pe1_0.last_name,pe1_0.person_code from persons pe1_0 where pe1_0.first_name=? and pe1_0.last_name=? and pe1_0.person_code=?
+Hibernate: insert into persons (birth_date,first_name,last_name,person_code,id) values (?,?,?,?,default)
+Hibernate: insert into agreement_persons (agreement_id,medical_risk_limit_level,person_id,id) values (?,?,?,default)
+Hibernate: insert into agreement_person_risks (agreement_person_id,premium,risk_ic,id) values (?,?,?,default)
+Hibernate: insert into selected_risks (agreement_id,risk_ic,id) values (?,?,default)
+2025-10-18 13:28:59,369 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumResponseLoggerV2 - RESPONSE: {"uuid":"44499b96-faba-4f6c-a289-1cc2d9f4128d","agreementDateFrom":[2040,5,25],"agreementDateTo":[2040,5,29],"agreementPremium":33.50,"country":"SPAIN","persons":[{"personCode":"010882-11034","personFirstName":"Vasja","personLastName":"Pupkin","personBirthDate":[2000,5,29],"medicalRiskLimitLevel":"LEVEL_10000","personPremium":11.00,"personRisks":[{"riskIc":"TRAVEL_MEDICAL","premium":11.00}]},{"personCode":"010882-11032","personFirstName":"Petja","personLastName":"Pupkin","personBirthDate":[1950,2,28],"medicalRiskLimitLevel":"LEVEL_20000","personPremium":22.50,"personRisks":[{"riskIc":"TRAVEL_MEDICAL","premium":22.50}]}]}
+2025-10-18 13:28:59,369 [Test worker] INFO  o.j.t.i.r.c.TravelCalculatePremiumRequestExecutionTimeLogger - Request processing time: 34 ms
+2025-10-18 13:28:59,379 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumRequestLoggerV2 - REQUEST: {"agreementDateFrom":[2040,7,15],"agreementDateTo":[2040,7,25],"country":"fgdg","persons":[{"personCode":"010882-11034","personFirstName":"Sergey","personLastName":"Ivanov","medicalRiskLimitLevel":"LEVEL_10000","personBirthDate":[1975,9,5]}],"risks":["TRAVEL_MEDICAL"]}
+Hibernate: select cv1_0.id,cv1_0.classifier_id,cv1_0.description,cv1_0.ic from classifier_values cv1_0 left join classifiers c1_0 on c1_0.id=cv1_0.classifier_id where c1_0.title=? and cv1_0.ic=?
+Hibernate: select cv1_0.id,cv1_0.classifier_id,cv1_0.description,cv1_0.ic from classifier_values cv1_0 left join classifiers c1_0 on c1_0.id=cv1_0.classifier_id where c1_0.title=? and cv1_0.ic=?
+Hibernate: select c1_0.id,c1_0.description,c1_0.title from classifiers c1_0 where c1_0.id=?
+Hibernate: select cv1_0.id,cv1_0.classifier_id,cv1_0.description,cv1_0.ic from classifier_values cv1_0 left join classifiers c1_0 on c1_0.id=cv1_0.classifier_id where c1_0.title=? and cv1_0.ic=?
+Hibernate: select c1_0.id,c1_0.description,c1_0.title from classifiers c1_0 where c1_0.id=?
+2025-10-18 13:28:59,388 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumResponseLoggerV2 - RESPONSE: {"errors":[{"errorCode":"ERROR_CODE_11","description":"Country = fgdg not supported!"}]}
+2025-10-18 13:28:59,388 [Test worker] INFO  o.j.t.i.r.c.TravelCalculatePremiumRequestExecutionTimeLogger - Request processing time: 10 ms
+2025-10-18 13:28:59,397 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumRequestLoggerV2 - REQUEST: {"agreementDateFrom":[2040,6,1],"agreementDateTo":[2040,6,10],"country":"SPAIN","persons":[{"personCode":"010882-11034","personFirstName":"Ivan","personLastName":"Ivanov","medicalRiskLimitLevel":"LEVEL_10000","personBirthDate":[1995,1,15]}],"risks":["TRAVEL_MEDICAL"]}
+Hibernate: select cv1_0.id,cv1_0.classifier_id,cv1_0.description,cv1_0.ic from classifier_values cv1_0 left join classifiers c1_0 on c1_0.id=cv1_0.classifier_id where c1_0.title=? and cv1_0.ic=?
+Hibernate: select c1_0.id,c1_0.description,c1_0.title from classifiers c1_0 where c1_0.id=?
+Hibernate: select cv1_0.id,cv1_0.classifier_id,cv1_0.description,cv1_0.ic from classifier_values cv1_0 left join classifiers c1_0 on c1_0.id=cv1_0.classifier_id where c1_0.title=? and cv1_0.ic=?
+Hibernate: select c1_0.id,c1_0.description,c1_0.title from classifiers c1_0 where c1_0.id=?
+Hibernate: select cv1_0.id,cv1_0.classifier_id,cv1_0.description,cv1_0.ic from classifier_values cv1_0 left join classifiers c1_0 on c1_0.id=cv1_0.classifier_id where c1_0.title=? and cv1_0.ic=?
+Hibernate: select c1_0.id,c1_0.description,c1_0.title from classifiers c1_0 where c1_0.id=?
+Hibernate: select cddr1_0.id,cddr1_0.country_ic,cddr1_0.default_day_rate from country_default_day_rate cddr1_0 where cddr1_0.country_ic=?
+Hibernate: select ac1_0.id,ac1_0.age_from,ac1_0.age_to,ac1_0.coefficient from age_coefficient ac1_0 where ? between ac1_0.age_from and ac1_0.age_to
+Hibernate: select mrll1_0.id,mrll1_0.coefficient,mrll1_0.medical_risk_limit_level_ic from medical_risk_limit_level mrll1_0 where mrll1_0.medical_risk_limit_level_ic=?
+Hibernate: insert into agreements (date_from,date_to,premium,country,uuid,id) values (?,?,?,?,?,default)
+Hibernate: select pe1_0.id,pe1_0.birth_date,pe1_0.first_name,pe1_0.last_name,pe1_0.person_code from persons pe1_0 where pe1_0.first_name=? and pe1_0.last_name=? and pe1_0.person_code=?
+Hibernate: insert into persons (birth_date,first_name,last_name,person_code,id) values (?,?,?,?,default)
+Hibernate: insert into agreement_persons (agreement_id,medical_risk_limit_level,person_id,id) values (?,?,?,default)
+Hibernate: insert into agreement_person_risks (agreement_person_id,premium,risk_ic,id) values (?,?,?,default)
+Hibernate: insert into selected_risks (agreement_id,risk_ic,id) values (?,?,default)
+2025-10-18 13:28:59,420 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumResponseLoggerV2 - RESPONSE: {"uuid":"6962a4b5-1f07-460e-b487-9fbed37b2663","agreementDateFrom":[2040,6,1],"agreementDateTo":[2040,6,10],"agreementPremium":24.75,"country":"SPAIN","persons":[{"personCode":"010882-11034","personFirstName":"Ivan","personLastName":"Ivanov","personBirthDate":[1995,1,15],"medicalRiskLimitLevel":"LEVEL_10000","personPremium":24.75,"personRisks":[{"riskIc":"TRAVEL_MEDICAL","premium":24.75}]}]}
+2025-10-18 13:28:59,420 [Test worker] INFO  o.j.t.i.r.c.TravelCalculatePremiumRequestExecutionTimeLogger - Request processing time: 25 ms
+2025-10-18 13:28:59,430 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumRequestLoggerV2 - REQUEST: {"agreementDateFrom":[2040,7,1],"agreementDateTo":[2040,7,10],"country":null,"persons":[{"personCode":"010882-11034","personFirstName":"Olga","personLastName":"Sidorova","medicalRiskLimitLevel":"LEVEL_10000","personBirthDate":[1990,11,11]}],"risks":["TRAVEL_MEDICAL"]}
+Hibernate: select cv1_0.id,cv1_0.classifier_id,cv1_0.description,cv1_0.ic from classifier_values cv1_0 left join classifiers c1_0 on c1_0.id=cv1_0.classifier_id where c1_0.title=? and cv1_0.ic=?
+Hibernate: select c1_0.id,c1_0.description,c1_0.title from classifiers c1_0 where c1_0.id=?
+Hibernate: select cv1_0.id,cv1_0.classifier_id,cv1_0.description,cv1_0.ic from classifier_values cv1_0 left join classifiers c1_0 on c1_0.id=cv1_0.classifier_id where c1_0.title=? and cv1_0.ic=?
+Hibernate: select c1_0.id,c1_0.description,c1_0.title from classifiers c1_0 where c1_0.id=?
+2025-10-18 13:28:59,439 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumResponseLoggerV2 - RESPONSE: {"errors":[{"errorCode":"ERROR_CODE_10","description":"Country must not be null!"}]}
+2025-10-18 13:28:59,440 [Test worker] INFO  o.j.t.i.r.c.TravelCalculatePremiumRequestExecutionTimeLogger - Request processing time: 10 ms
+2025-10-18 13:28:59,447 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumRequestLoggerV2 - REQUEST: {"agreementDateFrom":[2040,6,1],"agreementDateTo":[2040,6,10],"country":"SPAIN","persons":[{"personCode":"010882-11034","personFirstName":"Ivan","personLastName":"Ivanov","medicalRiskLimitLevel":"LEVEL_10000","personBirthDate":[1995,1,15]}],"risks":["UNSUPPORTED_RISK"]}
+Hibernate: select cv1_0.id,cv1_0.classifier_id,cv1_0.description,cv1_0.ic from classifier_values cv1_0 left join classifiers c1_0 on c1_0.id=cv1_0.classifier_id where c1_0.title=? and cv1_0.ic=?
+Hibernate: select cv1_0.id,cv1_0.classifier_id,cv1_0.description,cv1_0.ic from classifier_values cv1_0 left join classifiers c1_0 on c1_0.id=cv1_0.classifier_id where c1_0.title=? and cv1_0.ic=?
+Hibernate: select c1_0.id,c1_0.description,c1_0.title from classifiers c1_0 where c1_0.id=?
+2025-10-18 13:28:59,457 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumResponseLoggerV2 - RESPONSE: {"errors":[{"errorCode":"ERROR_CODE_9","description":"Risk Type ic = UNSUPPORTED_RISK not supported!"}]}
+2025-10-18 13:28:59,458 [Test worker] INFO  o.j.t.i.r.c.TravelCalculatePremiumRequestExecutionTimeLogger - Request processing time: 11 ms
+2025-10-18 13:28:59,468 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumRequestLoggerV2 - REQUEST: {"agreementDateFrom":[2040,6,5],"agreementDateTo":[2040,6,15],"country":"SPAIN","persons":[{"personCode":"010882-11034","personFirstName":"Petr","personLastName":"Petrov","medicalRiskLimitLevel":"LEVEL_20000","personBirthDate":[1980,3,20]}],"risks":["UNSUPPORTED_RISK_1","UNSUPPORTED_RISK_2"]}
+Hibernate: select cv1_0.id,cv1_0.classifier_id,cv1_0.description,cv1_0.ic from classifier_values cv1_0 left join classifiers c1_0 on c1_0.id=cv1_0.classifier_id where c1_0.title=? and cv1_0.ic=?
+Hibernate: select cv1_0.id,cv1_0.classifier_id,cv1_0.description,cv1_0.ic from classifier_values cv1_0 left join classifiers c1_0 on c1_0.id=cv1_0.classifier_id where c1_0.title=? and cv1_0.ic=?
+Hibernate: select cv1_0.id,cv1_0.classifier_id,cv1_0.description,cv1_0.ic from classifier_values cv1_0 left join classifiers c1_0 on c1_0.id=cv1_0.classifier_id where c1_0.title=? and cv1_0.ic=?
+Hibernate: select c1_0.id,c1_0.description,c1_0.title from classifiers c1_0 where c1_0.id=?
+2025-10-18 13:28:59,479 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumResponseLoggerV2 - RESPONSE: {"errors":[{"errorCode":"ERROR_CODE_9","description":"Risk Type ic = UNSUPPORTED_RISK_1 not supported!"},{"errorCode":"ERROR_CODE_9","description":"Risk Type ic = UNSUPPORTED_RISK_2 not supported!"}]}
+2025-10-18 13:28:59,479 [Test worker] INFO  o.j.t.i.r.c.TravelCalculatePremiumRequestExecutionTimeLogger - Request processing time: 13 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

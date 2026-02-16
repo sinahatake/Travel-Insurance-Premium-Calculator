@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.javaguru.travel.insurance.core.underwriting.integration.medical.AgeCoefficientSwitchDisabledIntegrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-10-18T10:28:47" hostname="DESKTOP-0C0N9P6" time="0.089">
+  <properties/>
+  <testcase name="shouldBeEnabledAgeCoefficient()" classname="org.javaguru.travel.insurance.core.underwriting.integration.medical.AgeCoefficientSwitchDisabledIntegrationTest" time="0.089"/>
+  <system-out><![CDATA[2025-10-18 13:28:40,698 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.javaguru.travel.insurance.core.underwriting.integration.medical.AgeCoefficientSwitchDisabledIntegrationTest]: AgeCoefficientSwitchDisabledIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-10-18 13:28:40,805 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.javaguru.travel.insurance.InsuranceApplication for test class org.javaguru.travel.insurance.core.underwriting.integration.medical.AgeCoefficientSwitchDisabledIntegrationTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.5)
+
+2025-10-18 13:28:40,943 [Test worker] INFO  o.j.t.i.c.u.i.m.AgeCoefficientSwitchDisabledIntegrationTest - Starting AgeCoefficientSwitchDisabledIntegrationTest using Java 21.0.4 with PID 22068 (started by Sinahatake in C:\Users\Sinahatake\IdeaProjects\2025_virtual_internship\student_nastya_loktionova_v2\insurance-calculator-app)
+2025-10-18 13:28:40,944 [Test worker] INFO  o.j.t.i.c.u.i.m.AgeCoefficientSwitchDisabledIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+2025-10-18 13:28:42,655 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-18 13:28:42,785 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 126 ms. Found 12 JPA repository interfaces.
+2025-10-18 13:28:43,083 [Test worker] INFO  o.s.b.t.a.j.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor - Replacing 'dataSource' DataSource bean with embedded version
+2025-10-18 13:28:43,660 [Test worker] INFO  o.s.j.d.e.EmbeddedDatabaseFactory - Starting embedded database: url='jdbc:h2:mem:44ccf4e4-deca-463c-b188-96de0a140527;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2025-10-18 13:28:43,765 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-18 13:28:43,772 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-18 13:28:43,787 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-18 13:28:43,792 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-18 13:28:43,793 [Test worker] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory$EmbeddedDataSourceProxy@7094dc0']
+	Database driver: undefined/unknown
+	Database version: 2.2.224
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-18 13:28:43,973 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-18 13:28:43,978 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-18 13:28:46,616 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-18 13:28:47,551 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-10-18 13:28:47,551 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-10-18 13:28:47,554 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-10-18 13:28:47,643 [Test worker] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2025-10-18 13:28:47,723 [Test worker] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#47c9b8ee:0/SimpleConnection@43c9c0b5 [delegate=amqp://guest@127.0.0.1:5672/, localPort=5985]
+2025-10-18 13:28:47,809 [Test worker] INFO  o.j.t.i.c.u.i.m.AgeCoefficientSwitchDisabledIntegrationTest - Started AgeCoefficientSwitchDisabledIntegrationTest in 6.965 seconds (process running for 21.986)
+Hibernate: select cddr1_0.id,cddr1_0.country_ic,cddr1_0.default_day_rate from country_default_day_rate cddr1_0 where cddr1_0.country_ic=?
+Hibernate: select mrll1_0.id,mrll1_0.coefficient,mrll1_0.medical_risk_limit_level_ic from medical_risk_limit_level mrll1_0 where mrll1_0.medical_risk_limit_level_ic=?
+2025-10-18 13:28:47,934 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+2025-10-18 13:28:48,801 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2025-10-18 13:28:48,819 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.javaguru.travel.insurance.core.validations.integration.ValidationPersonLastNameIntegrationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-10-18T10:28:58" hostname="DESKTOP-0C0N9P6" time="0.043">
+  <properties/>
+  <testcase name="shouldNotReturnErrorWhenPersonLastNameIsPresent()" classname="org.javaguru.travel.insurance.core.validations.integration.ValidationPersonLastNameIntegrationTest" time="0.013"/>
+  <testcase name="shouldReturnErrorWhenPersonLastNameIsNull()" classname="org.javaguru.travel.insurance.core.validations.integration.ValidationPersonLastNameIntegrationTest" time="0.014"/>
+  <testcase name="shouldReturnErrorWhenPersonLastNameIsEmpty()" classname="org.javaguru.travel.insurance.core.validations.integration.ValidationPersonLastNameIntegrationTest" time="0.014"/>
+  <system-out><![CDATA[2025-10-18 13:28:58,266 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.javaguru.travel.insurance.core.validations.integration.ValidationPersonLastNameIntegrationTest]: ValidationPersonLastNameIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-10-18 13:28:58,268 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.javaguru.travel.insurance.InsuranceApplication for test class org.javaguru.travel.insurance.core.validations.integration.ValidationPersonLastNameIntegrationTest
+Hibernate: select cv1_0.id,cv1_0.classifier_id,cv1_0.description,cv1_0.ic from classifier_values cv1_0 left join classifiers c1_0 on c1_0.id=cv1_0.classifier_id where c1_0.title=? and cv1_0.ic=?
+Hibernate: select c1_0.id,c1_0.description,c1_0.title from classifiers c1_0 where c1_0.id=?
+Hibernate: select cv1_0.id,cv1_0.classifier_id,cv1_0.description,cv1_0.ic from classifier_values cv1_0 left join classifiers c1_0 on c1_0.id=cv1_0.classifier_id where c1_0.title=? and cv1_0.ic=?
+Hibernate: select c1_0.id,c1_0.description,c1_0.title from classifiers c1_0 where c1_0.id=?
+Hibernate: select cv1_0.id,cv1_0.classifier_id,cv1_0.description,cv1_0.ic from classifier_values cv1_0 left join classifiers c1_0 on c1_0.id=cv1_0.classifier_id where c1_0.title=? and cv1_0.ic=?
+Hibernate: select c1_0.id,c1_0.description,c1_0.title from classifiers c1_0 where c1_0.id=?
+Hibernate: select cv1_0.id,cv1_0.classifier_id,cv1_0.description,cv1_0.ic from classifier_values cv1_0 left join classifiers c1_0 on c1_0.id=cv1_0.classifier_id where c1_0.title=? and cv1_0.ic=?
+Hibernate: select c1_0.id,c1_0.description,c1_0.title from classifiers c1_0 where c1_0.id=?
+Hibernate: select cv1_0.id,cv1_0.classifier_id,cv1_0.description,cv1_0.ic from classifier_values cv1_0 left join classifiers c1_0 on c1_0.id=cv1_0.classifier_id where c1_0.title=? and cv1_0.ic=?
+Hibernate: select c1_0.id,c1_0.description,c1_0.title from classifiers c1_0 where c1_0.id=?
+Hibernate: select cv1_0.id,cv1_0.classifier_id,cv1_0.description,cv1_0.ic from classifier_values cv1_0 left join classifiers c1_0 on c1_0.id=cv1_0.classifier_id where c1_0.title=? and cv1_0.ic=?
+Hibernate: select c1_0.id,c1_0.description,c1_0.title from classifiers c1_0 where c1_0.id=?
+Hibernate: select cv1_0.id,cv1_0.classifier_id,cv1_0.description,cv1_0.ic from classifier_values cv1_0 left join classifiers c1_0 on c1_0.id=cv1_0.classifier_id where c1_0.title=? and cv1_0.ic=?
+Hibernate: select c1_0.id,c1_0.description,c1_0.title from classifiers c1_0 where c1_0.id=?
+Hibernate: select cv1_0.id,cv1_0.classifier_id,cv1_0.description,cv1_0.ic from classifier_values cv1_0 left join classifiers c1_0 on c1_0.id=cv1_0.classifier_id where c1_0.title=? and cv1_0.ic=?
+Hibernate: select c1_0.id,c1_0.description,c1_0.title from classifiers c1_0 where c1_0.id=?
+Hibernate: select cv1_0.id,cv1_0.classifier_id,cv1_0.description,cv1_0.ic from classifier_values cv1_0 left join classifiers c1_0 on c1_0.id=cv1_0.classifier_id where c1_0.title=? and cv1_0.ic=?
+Hibernate: select c1_0.id,c1_0.description,c1_0.title from classifiers c1_0 where c1_0.id=?
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

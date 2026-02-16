@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.javaguru.travel.insurance.core.underwriting.SelectedRisksPremiumCalculatorTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-10-18T10:28:39" hostname="DESKTOP-0C0N9P6" time="0.267">
+  <properties/>
+  <testcase name="shouldThrowExceptionWhenSelectedRiskTypeNotSupported()" classname="org.javaguru.travel.insurance.core.underwriting.SelectedRisksPremiumCalculatorTest" time="0.237"/>
+  <testcase name="shouldCalculatePremiumForTwoRisks()" classname="org.javaguru.travel.insurance.core.underwriting.SelectedRisksPremiumCalculatorTest" time="0.016"/>
+  <testcase name="shouldCalculatePremiumForOneRisk()" classname="org.javaguru.travel.insurance.core.underwriting.SelectedRisksPremiumCalculatorTest" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

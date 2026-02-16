@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.javaguru.travel.insurance.core.validations.agreement.ValidationSelectedRisksTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-10-18T10:28:55" hostname="DESKTOP-0C0N9P6" time="0.013">
+  <properties/>
+  <testcase name="shouldValidateWithErrors()" classname="org.javaguru.travel.insurance.core.validations.agreement.ValidationSelectedRisksTest" time="0.006"/>
+  <testcase name="shouldNotValidateWhenSelectedRisksIsNull()" classname="org.javaguru.travel.insurance.core.validations.agreement.ValidationSelectedRisksTest" time="0.003"/>
+  <testcase name="shouldValidateWithoutErrors()" classname="org.javaguru.travel.insurance.core.validations.agreement.ValidationSelectedRisksTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

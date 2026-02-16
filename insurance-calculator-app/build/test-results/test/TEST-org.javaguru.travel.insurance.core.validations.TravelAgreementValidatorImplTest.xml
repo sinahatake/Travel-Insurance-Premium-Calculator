@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.javaguru.travel.insurance.core.validations.TravelAgreementValidatorImplTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-10-18T10:28:54" hostname="DESKTOP-0C0N9P6" time="0.087">
+  <properties/>
+  <testcase name="shouldReturnOnlyPersonErrorsIfNoAgreementErrors()" classname="org.javaguru.travel.insurance.core.validations.TravelAgreementValidatorImplTest" time="0.08"/>
+  <testcase name="shouldReturnOnlyAgreementErrorsIfNoPersonErrors()" classname="org.javaguru.travel.insurance.core.validations.TravelAgreementValidatorImplTest" time="0.002"/>
+  <testcase name="shouldReturnEmptyListIfNoErrors()" classname="org.javaguru.travel.insurance.core.validations.TravelAgreementValidatorImplTest" time="0.003"/>
+  <testcase name="shouldReturnAllErrorsFromAgreementAndPersonValidators()" classname="org.javaguru.travel.insurance.core.validations.TravelAgreementValidatorImplTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

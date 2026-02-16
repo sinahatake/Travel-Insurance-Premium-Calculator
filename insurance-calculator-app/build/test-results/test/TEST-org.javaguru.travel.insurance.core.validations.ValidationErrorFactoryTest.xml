@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.javaguru.travel.insurance.core.validations.ValidationErrorFactoryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-10-18T10:28:55" hostname="DESKTOP-0C0N9P6" time="0.047">
+  <properties/>
+  <testcase name="shouldReturnValidationErrorWithDescription()" classname="org.javaguru.travel.insurance.core.validations.ValidationErrorFactoryTest" time="0.047"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

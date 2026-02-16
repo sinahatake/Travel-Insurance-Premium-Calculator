@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - AgeCoefficientRepositoryTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>AgeCoefficientRepositoryTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.javaguru.travel.insurance.core.repositories.html">org.javaguru.travel.insurance.core.repositories</a> &gt; AgeCoefficientRepositoryTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">5</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.069s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Method name</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">Injected repository is not null</td>
+<td class="success">injectedRepositoryAreNotNull()</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Should find coefficient for age 17 (range 11..17)</td>
+<td class="success">shouldFindCoefficientForAge17()</td>
+<td class="success">0.032s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Should find coefficient for age 41 (range 41..65)</td>
+<td class="success">shouldFindCoefficientForAge41()</td>
+<td class="success">0.011s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Should find coefficient for age 5 (range 1..10)</td>
+<td class="success">shouldFindCoefficientForAge5()</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Should NOT find coefficient for age 200 (out of all ranges)</td>
+<td class="success">shouldNotFindCoefficientForAge200()</td>
+<td class="success">1.007s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>13:28:27,457 |-INFO in ch.qos.logback.classic.LoggerContext[default] - This is logback-classic version 1.5.18
+13:28:27,460 |-INFO in ch.qos.logback.classic.util.ContextInitializer@67ef029 - Here is a list of configurators discovered as a service, by rank: 
+13:28:27,460 |-INFO in ch.qos.logback.classic.util.ContextInitializer@67ef029 -   org.springframework.boot.logging.logback.RootLogLevelConfigurator
+13:28:27,460 |-INFO in ch.qos.logback.classic.util.ContextInitializer@67ef029 - They will be invoked in order until ExecutionStatus.DO_NOT_INVOKE_NEXT_IF_ANY is returned.
+13:28:27,460 |-INFO in ch.qos.logback.classic.util.ContextInitializer@67ef029 - Constructed configurator of type class org.springframework.boot.logging.logback.RootLogLevelConfigurator
+13:28:27,477 |-INFO in ch.qos.logback.classic.util.ContextInitializer@67ef029 - org.springframework.boot.logging.logback.RootLogLevelConfigurator.configure() call lasted 1 milliseconds. ExecutionStatus=INVOKE_NEXT_IF_ANY
+13:28:27,478 |-INFO in ch.qos.logback.classic.util.ContextInitializer@67ef029 - Trying to configure with ch.qos.logback.classic.joran.SerializedModelConfigurator
+13:28:27,479 |-INFO in ch.qos.logback.classic.util.ContextInitializer@67ef029 - Constructed configurator of type class ch.qos.logback.classic.joran.SerializedModelConfigurator
+13:28:27,483 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.scmo]
+13:28:27,483 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.scmo]
+13:28:27,485 |-INFO in ch.qos.logback.classic.util.ContextInitializer@67ef029 - ch.qos.logback.classic.joran.SerializedModelConfigurator.configure() call lasted 4 milliseconds. ExecutionStatus=INVOKE_NEXT_IF_ANY
+13:28:27,485 |-INFO in ch.qos.logback.classic.util.ContextInitializer@67ef029 - Trying to configure with ch.qos.logback.classic.util.DefaultJoranConfigurator
+13:28:27,486 |-INFO in ch.qos.logback.classic.util.ContextInitializer@67ef029 - Constructed configurator of type class ch.qos.logback.classic.util.DefaultJoranConfigurator
+13:28:27,488 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+13:28:27,494 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/C:/Users/Sinahatake/IdeaProjects/2025_virtual_internship/student_nastya_loktionova_v2/insurance-calculator-app/build/resources/main/logback.xml]
+13:28:27,706 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [CONSOLE]
+13:28:27,706 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+13:28:27,726 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+13:28:27,832 |-INFO in ch.qos.logback.core.ConsoleAppender[CONSOLE] - BEWARE: Writing to the console can be very slow. Avoid logging to the 
+13:28:27,832 |-INFO in ch.qos.logback.core.ConsoleAppender[CONSOLE] - console in production environments, especially in high volume systems.
+13:28:27,832 |-INFO in ch.qos.logback.core.ConsoleAppender[CONSOLE] - See also https://logback.qos.ch/codes.html#slowConsole
+13:28:27,832 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [FILE_APPENDER]
+13:28:27,832 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+13:28:27,841 |-INFO in ch.qos.logback.core.model.processor.ModelInterpretationContext@7df587ef - value &quot;./logs/application-logger.log&quot; substituted for &quot;${LOGS}/application-logger.log&quot;
+13:28:27,842 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+13:28:27,849 |-INFO in ch.qos.logback.core.model.processor.ModelInterpretationContext@7df587ef - value &quot;./logs/archived/application-logger-%d{yyyy-MM-dd}.%i.log&quot; substituted for &quot;${LOGS}/archived/application-logger-%d{yyyy-MM-dd}.%i.log&quot;
+13:28:27,862 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1851255134 - No compression will be used
+13:28:27,873 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1851255134 - Will use the pattern ./logs/archived/application-logger-%d{yyyy-MM-dd}.%i.log for the active file
+13:28:27,874 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@2755d705 - SizeAndTimeBasedFNATP class was renamed as SizeAndTimeBasedFileNamingAndTriggeringPolicy.
+13:28:27,880 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@2755d705 - The date pattern is 'yyyy-MM-dd' from file name pattern './logs/archived/application-logger-%d{yyyy-MM-dd}.%i.log'.
+13:28:27,880 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@2755d705 - Roll-over at midnight.
+13:28:27,881 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@2755d705 - Setting initial period to 2025-10-18T10:28:27.881Z
+13:28:27,881 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@2755d705 - Direct use of either SizeAndTimeBasedFNATP or SizeAndTimeBasedFileNamingAndTriggeringPolicy 
+13:28:27,881 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@2755d705 - is deprecated. Please use SizeAndTimeBasedRollingPolicy instead.
+13:28:27,881 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@2755d705 - For more information see https://logback.qos.ch/manual/appenders.html#SizeAndTimeBasedRollingPolicy
+13:28:27,900 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE_APPENDER] - Active log file name: ./logs/application-logger.log
+13:28:27,901 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE_APPENDER] - File property is set to [./logs/application-logger.log]
+13:28:27,904 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [REQUEST_RESPONSE_FILE_APPENDER]
+13:28:27,904 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+13:28:27,904 |-INFO in ch.qos.logback.core.model.processor.ModelInterpretationContext@7df587ef - value &quot;./logs/request-response-logger.log&quot; substituted for &quot;${LOGS}/request-response-logger.log&quot;
+13:28:27,905 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+13:28:27,905 |-INFO in ch.qos.logback.core.model.processor.ModelInterpretationContext@7df587ef - value &quot;./logs/archived/request-response-logger-%d{yyyy-MM-dd}.%i.log&quot; substituted for &quot;${LOGS}/archived/request-response-logger-%d{yyyy-MM-dd}.%i.log&quot;
+13:28:27,906 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1457226878 - No compression will be used
+13:28:27,906 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1457226878 - Will use the pattern ./logs/archived/request-response-logger-%d{yyyy-MM-dd}.%i.log for the active file
+13:28:27,906 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@740abb5 - SizeAndTimeBasedFNATP class was renamed as SizeAndTimeBasedFileNamingAndTriggeringPolicy.
+13:28:27,907 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@740abb5 - The date pattern is 'yyyy-MM-dd' from file name pattern './logs/archived/request-response-logger-%d{yyyy-MM-dd}.%i.log'.
+13:28:27,907 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@740abb5 - Roll-over at midnight.
+13:28:27,908 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@740abb5 - Setting initial period to 2025-10-18T10:28:27.908Z
+13:28:27,908 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@740abb5 - Direct use of either SizeAndTimeBasedFNATP or SizeAndTimeBasedFileNamingAndTriggeringPolicy 
+13:28:27,908 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@740abb5 - is deprecated. Please use SizeAndTimeBasedRollingPolicy instead.
+13:28:27,908 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@740abb5 - For more information see https://logback.qos.ch/manual/appenders.html#SizeAndTimeBasedRollingPolicy
+13:28:27,909 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[REQUEST_RESPONSE_FILE_APPENDER] - Active log file name: ./logs/request-response-logger.log
+13:28:27,909 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[REQUEST_RESPONSE_FILE_APPENDER] - File property is set to [./logs/request-response-logger.log]
+13:28:27,910 |-INFO in ch.qos.logback.classic.model.processor.RootLoggerModelHandler - Setting level of ROOT logger to INFO
+13:28:27,910 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [CONSOLE] to Logger[ROOT]
+13:28:27,911 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [FILE_APPENDER] to Logger[ROOT]
+13:28:27,913 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.javaguru.travel.insurance.rest.v1.TravelCalculatePremiumRequestLoggerV1] to INFO
+13:28:27,913 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [REQUEST_RESPONSE_FILE_APPENDER] to Logger[org.javaguru.travel.insurance.rest.v1.TravelCalculatePremiumRequestLoggerV1]
+13:28:27,913 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.javaguru.travel.insurance.rest.v1.TravelCalculatePremiumResponseLoggerV1] to INFO
+13:28:27,913 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [REQUEST_RESPONSE_FILE_APPENDER] to Logger[org.javaguru.travel.insurance.rest.v1.TravelCalculatePremiumResponseLoggerV1]
+13:28:27,914 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.javaguru.travel.insurance.rest.v2.TravelCalculatePremiumRequestLoggerV2] to INFO
+13:28:27,914 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [REQUEST_RESPONSE_FILE_APPENDER] to Logger[org.javaguru.travel.insurance.rest.v2.TravelCalculatePremiumRequestLoggerV2]
+13:28:27,914 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.javaguru.travel.insurance.rest.v2.TravelCalculatePremiumResponseLoggerV2] to INFO
+13:28:27,914 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [REQUEST_RESPONSE_FILE_APPENDER] to Logger[org.javaguru.travel.insurance.rest.v2.TravelCalculatePremiumResponseLoggerV2]
+13:28:27,914 |-INFO in ch.qos.logback.core.model.processor.DefaultProcessor@560cbf1a - End of configuration.
+13:28:27,916 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@5fe8b721 - Registering current configuration as safe fallback point
+13:28:27,916 |-INFO in ch.qos.logback.classic.util.ContextInitializer@67ef029 - ch.qos.logback.classic.util.DefaultJoranConfigurator.configure() call lasted 430 milliseconds. ExecutionStatus=DO_NOT_INVOKE_NEXT_IF_ANY
+
+2025-10-18 13:28:28,144 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.javaguru.travel.insurance.core.repositories.AgeCoefficientRepositoryTest]: AgeCoefficientRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-10-18 13:28:28,463 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.javaguru.travel.insurance.InsuranceApplication for test class org.javaguru.travel.insurance.core.repositories.AgeCoefficientRepositoryTest
+13:28:29,007 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [CONSOLE]
+13:28:29,007 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+13:28:29,007 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+13:28:29,008 |-INFO in ch.qos.logback.core.ConsoleAppender[CONSOLE] - BEWARE: Writing to the console can be very slow. Avoid logging to the 
+13:28:29,008 |-INFO in ch.qos.logback.core.ConsoleAppender[CONSOLE] - console in production environments, especially in high volume systems.
+13:28:29,008 |-INFO in ch.qos.logback.core.ConsoleAppender[CONSOLE] - See also https://logback.qos.ch/codes.html#slowConsole
+13:28:29,008 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [FILE_APPENDER]
+13:28:29,008 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+13:28:29,009 |-INFO in ch.qos.logback.core.model.processor.ModelInterpretationContext@7be7e15 - value &quot;./logs/application-logger.log&quot; substituted for &quot;${LOGS}/application-logger.log&quot;
+13:28:29,009 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+13:28:29,016 |-INFO in ch.qos.logback.core.model.processor.ModelInterpretationContext@7be7e15 - value &quot;./logs/archived/application-logger-%d{yyyy-MM-dd}.%i.log&quot; substituted for &quot;${LOGS}/archived/application-logger-%d{yyyy-MM-dd}.%i.log&quot;
+13:28:29,017 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@985655365 - No compression will be used
+13:28:29,017 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@985655365 - Will use the pattern ./logs/archived/application-logger-%d{yyyy-MM-dd}.%i.log for the active file
+13:28:29,017 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@7a0f244f - SizeAndTimeBasedFNATP class was renamed as SizeAndTimeBasedFileNamingAndTriggeringPolicy.
+13:28:29,017 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@7a0f244f - The date pattern is 'yyyy-MM-dd' from file name pattern './logs/archived/application-logger-%d{yyyy-MM-dd}.%i.log'.
+13:28:29,017 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@7a0f244f - Roll-over at midnight.
+13:28:29,019 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@7a0f244f - Setting initial period to 2025-10-18T10:28:28.464Z
+13:28:29,019 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@7a0f244f - Direct use of either SizeAndTimeBasedFNATP or SizeAndTimeBasedFileNamingAndTriggeringPolicy 
+13:28:29,019 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@7a0f244f - is deprecated. Please use SizeAndTimeBasedRollingPolicy instead.
+13:28:29,019 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@7a0f244f - For more information see https://logback.qos.ch/manual/appenders.html#SizeAndTimeBasedRollingPolicy
+13:28:29,019 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE_APPENDER] - Active log file name: ./logs/application-logger.log
+13:28:29,026 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE_APPENDER] - Setting currentFileLength to 627 for .\logs\application-logger.log
+13:28:29,026 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE_APPENDER] - File property is set to [./logs/application-logger.log]
+13:28:29,027 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [REQUEST_RESPONSE_FILE_APPENDER]
+13:28:29,027 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+13:28:29,027 |-INFO in ch.qos.logback.core.model.processor.ModelInterpretationContext@7be7e15 - value &quot;./logs/request-response-logger.log&quot; substituted for &quot;${LOGS}/request-response-logger.log&quot;
+13:28:29,027 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+13:28:29,028 |-INFO in ch.qos.logback.core.model.processor.ModelInterpretationContext@7be7e15 - value &quot;./logs/archived/request-response-logger-%d{yyyy-MM-dd}.%i.log&quot; substituted for &quot;${LOGS}/archived/request-response-logger-%d{yyyy-MM-dd}.%i.log&quot;
+13:28:29,029 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@913450862 - No compression will be used
+13:28:29,029 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@913450862 - Will use the pattern ./logs/archived/request-response-logger-%d{yyyy-MM-dd}.%i.log for the active file
+13:28:29,029 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@4248b963 - SizeAndTimeBasedFNATP class was renamed as SizeAndTimeBasedFileNamingAndTriggeringPolicy.
+13:28:29,030 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@4248b963 - The date pattern is 'yyyy-MM-dd' from file name pattern './logs/archived/request-response-logger-%d{yyyy-MM-dd}.%i.log'.
+13:28:29,030 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@4248b963 - Roll-over at midnight.
+13:28:29,031 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@4248b963 - Setting initial period to 2025-10-18T10:28:27.909Z
+13:28:29,031 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@4248b963 - Direct use of either SizeAndTimeBasedFNATP or SizeAndTimeBasedFileNamingAndTriggeringPolicy 
+13:28:29,031 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@4248b963 - is deprecated. Please use SizeAndTimeBasedRollingPolicy instead.
+13:28:29,031 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@4248b963 - For more information see https://logback.qos.ch/manual/appenders.html#SizeAndTimeBasedRollingPolicy
+13:28:29,032 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[REQUEST_RESPONSE_FILE_APPENDER] - Active log file name: ./logs/request-response-logger.log
+13:28:29,032 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[REQUEST_RESPONSE_FILE_APPENDER] - Setting currentFileLength to 0 for .\logs\request-response-logger.log
+13:28:29,032 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[REQUEST_RESPONSE_FILE_APPENDER] - File property is set to [./logs/request-response-logger.log]
+13:28:29,032 |-INFO in ch.qos.logback.classic.model.processor.RootLoggerModelHandler - Setting level of ROOT logger to INFO
+13:28:29,032 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@7f08caf - Propagating INFO level on Logger[ROOT] onto the JUL framework
+13:28:29,033 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [CONSOLE] to Logger[ROOT]
+13:28:29,033 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [FILE_APPENDER] to Logger[ROOT]
+13:28:29,033 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.javaguru.travel.insurance.rest.v1.TravelCalculatePremiumRequestLoggerV1] to INFO
+13:28:29,033 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@7f08caf - Propagating INFO level on Logger[org.javaguru.travel.insurance.rest.v1.TravelCalculatePremiumRequestLoggerV1] onto the JUL framework
+13:28:29,033 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [REQUEST_RESPONSE_FILE_APPENDER] to Logger[org.javaguru.travel.insurance.rest.v1.TravelCalculatePremiumRequestLoggerV1]
+13:28:29,033 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.javaguru.travel.insurance.rest.v1.TravelCalculatePremiumResponseLoggerV1] to INFO
+13:28:29,033 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@7f08caf - Propagating INFO level on Logger[org.javaguru.travel.insurance.rest.v1.TravelCalculatePremiumResponseLoggerV1] onto the JUL framework
+13:28:29,033 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [REQUEST_RESPONSE_FILE_APPENDER] to Logger[org.javaguru.travel.insurance.rest.v1.TravelCalculatePremiumResponseLoggerV1]
+13:28:29,033 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.javaguru.travel.insurance.rest.v2.TravelCalculatePremiumRequestLoggerV2] to INFO
+13:28:29,033 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@7f08caf - Propagating INFO level on Logger[org.javaguru.travel.insurance.rest.v2.TravelCalculatePremiumRequestLoggerV2] onto the JUL framework
+13:28:29,033 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [REQUEST_RESPONSE_FILE_APPENDER] to Logger[org.javaguru.travel.insurance.rest.v2.TravelCalculatePremiumRequestLoggerV2]
+13:28:29,033 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.javaguru.travel.insurance.rest.v2.TravelCalculatePremiumResponseLoggerV2] to INFO
+13:28:29,033 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@7f08caf - Propagating INFO level on Logger[org.javaguru.travel.insurance.rest.v2.TravelCalculatePremiumResponseLoggerV2] onto the JUL framework
+13:28:29,033 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [REQUEST_RESPONSE_FILE_APPENDER] to Logger[org.javaguru.travel.insurance.rest.v2.TravelCalculatePremiumResponseLoggerV2]
+13:28:29,033 |-INFO in ch.qos.logback.core.model.processor.DefaultProcessor@4defd42 - End of configuration.
+13:28:29,033 |-INFO in org.springframework.boot.logging.logback.SpringBootJoranConfigurator@2330e3e0 - Registering current configuration as safe fallback point
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.5)
+
+2025-10-18 13:28:29,106 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-10-18 13:28:29,221 [Test worker] INFO  o.j.t.i.c.r.AgeCoefficientRepositoryTest - Starting AgeCoefficientRepositoryTest using Java 21.0.4 with PID 22068 (started by Sinahatake in C:\Users\Sinahatake\IdeaProjects\2025_virtual_internship\student_nastya_loktionova_v2\insurance-calculator-app)
+2025-10-18 13:28:29,222 [Test worker] INFO  o.j.t.i.c.r.AgeCoefficientRepositoryTest - No active profile set, falling back to 1 default profile: &quot;default&quot;
+2025-10-18 13:28:30,274 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-18 13:28:30,755 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 460 ms. Found 12 JPA repository interfaces.
+2025-10-18 13:28:30,927 [Test worker] INFO  o.s.b.t.a.j.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor - Replacing 'dataSource' DataSource bean with embedded version
+2025-10-18 13:28:31,199 [Test worker] INFO  o.s.j.d.e.EmbeddedDatabaseFactory - Starting embedded database: url='jdbc:h2:mem:97920039-a7ef-482f-abc3-a49f114a0fbd;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2025-10-18 13:28:31,973 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-18 13:28:32,132 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-10-18 13:28:32,196 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-18 13:28:32,811 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-18 13:28:32,909 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-18 13:28:32,937 [Test worker] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory$EmbeddedDataSourceProxy@459d2ee6']
+	Database driver: undefined/unknown
+	Database version: 2.2.224
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-18 13:28:34,607 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-18 13:28:34,674 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-18 13:28:35,673 [Test worker] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-10-18 13:28:37,060 [Test worker] INFO  o.j.t.i.c.r.AgeCoefficientRepositoryTest - Started AgeCoefficientRepositoryTest in 8.444 seconds (process running for 11.237)
+Hibernate: select ac1_0.id,ac1_0.age_from,ac1_0.age_to,ac1_0.coefficient from age_coefficient ac1_0 where ? between ac1_0.age_from and ac1_0.age_to
+Hibernate: select ac1_0.id,ac1_0.age_from,ac1_0.age_to,ac1_0.coefficient from age_coefficient ac1_0 where ? between ac1_0.age_from and ac1_0.age_to
+Hibernate: select ac1_0.id,ac1_0.age_from,ac1_0.age_to,ac1_0.coefficient from age_coefficient ac1_0 where ? between ac1_0.age_from and ac1_0.age_to
+Hibernate: select ac1_0.id,ac1_0.age_from,ac1_0.age_to,ac1_0.coefficient from age_coefficient ac1_0 where ? between ac1_0.age_from and ac1_0.age_to
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build what is described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (C:\Users\Sinahatake\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.15.4\58e850dde88f3cf20f41f659440bef33f6c4fe02\byte-buddy-agent-1.15.4.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.11.1</a> at 18 окт. 2025 г., 13:29:00</p>
+</div>
+</div>
+</body>
+</html>

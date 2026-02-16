@@ -1,0 +1,37 @@
+{
+  "uuid": "IGNORED",
+  "agreementDateFrom": "2040-05-25",
+  "agreementDateTo": "2040-05-29",
+  "agreementPremium": 33.50,
+  "country": "SPAIN",
+  "persons": [
+    {
+      "personCode": "010882-11034",
+      "personFirstName": "Vasja",
+      "personLastName": "Pupkin",
+      "personBirthDate": "2000-05-29",
+      "medicalRiskLimitLevel": "LEVEL_10000",
+      "personPremium": 11.00,
+      "personRisks": [
+        {
+          "riskIc": "TRAVEL_MEDICAL",
+          "premium": 11.00
+        }
+      ]
+    },
+    {
+      "personCode": "010882-11032",
+      "personFirstName": "Petja",
+      "personLastName": "Pupkin",
+      "personBirthDate": "1950-02-28",
+      "medicalRiskLimitLevel": "LEVEL_20000",
+      "personPremium": 22.50,
+      "personRisks": [
+        {
+          "riskIc": "TRAVEL_MEDICAL",
+          "premium": 22.50
+        }
+      ]
+    }
+  ]
+}

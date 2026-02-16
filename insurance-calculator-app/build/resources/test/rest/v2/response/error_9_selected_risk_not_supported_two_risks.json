@@ -1,0 +1,12 @@
+{
+    "errors": [
+        {
+            "errorCode": "ERROR_CODE_9",
+            "description": "Risk Type ic = UNSUPPORTED_RISK_1 not supported!"
+        },
+        {
+            "errorCode": "ERROR_CODE_9",
+            "description": "Risk Type ic = UNSUPPORTED_RISK_2 not supported!"
+        }
+    ]
+}

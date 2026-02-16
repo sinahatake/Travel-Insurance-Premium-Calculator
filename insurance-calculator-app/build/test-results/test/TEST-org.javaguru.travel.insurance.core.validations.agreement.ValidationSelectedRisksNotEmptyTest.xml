@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.javaguru.travel.insurance.core.validations.agreement.ValidationSelectedRisksNotEmptyTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-10-18T10:28:55" hostname="DESKTOP-0C0N9P6" time="0.017">
+  <properties/>
+  <testcase name="shouldReturnErrorWhenSelectedRisksIsNull()" classname="org.javaguru.travel.insurance.core.validations.agreement.ValidationSelectedRisksNotEmptyTest" time="0.004"/>
+  <testcase name="shouldNotReturnErrorWhenSelectedRisksIsNotNull()" classname="org.javaguru.travel.insurance.core.validations.agreement.ValidationSelectedRisksNotEmptyTest" time="0.005"/>
+  <testcase name="shouldReturnErrorWhenSelectedRisksWithOnlySpacesAsEmpty()" classname="org.javaguru.travel.insurance.core.validations.agreement.ValidationSelectedRisksNotEmptyTest" time="0.003"/>
+  <testcase name="shouldReturnErrorWhenSelectedRisksIsEmptyList()" classname="org.javaguru.travel.insurance.core.validations.agreement.ValidationSelectedRisksNotEmptyTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

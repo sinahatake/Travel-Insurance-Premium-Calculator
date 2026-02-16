@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.javaguru.travel.insurance.core.repositories.CountryDefaultDayRateRepositoryTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-10-18T10:28:38" hostname="DESKTOP-0C0N9P6" time="0.05">
+  <properties/>
+  <testcase name="shouldFindForJapan()" classname="org.javaguru.travel.insurance.core.repositories.CountryDefaultDayRateRepositoryTest" time="0.011"/>
+  <testcase name="shouldFindForSpain()" classname="org.javaguru.travel.insurance.core.repositories.CountryDefaultDayRateRepositoryTest" time="0.012"/>
+  <testcase name="shouldFindForLatvia()" classname="org.javaguru.travel.insurance.core.repositories.CountryDefaultDayRateRepositoryTest" time="0.01"/>
+  <testcase name="shouldNotFindForUnknownCountry()" classname="org.javaguru.travel.insurance.core.repositories.CountryDefaultDayRateRepositoryTest" time="0.008"/>
+  <testcase name="injectedRepositoryAreNotNull()" classname="org.javaguru.travel.insurance.core.repositories.CountryDefaultDayRateRepositoryTest" time="0.005"/>
+  <system-out><![CDATA[2025-10-18 13:28:38,482 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.javaguru.travel.insurance.core.repositories.CountryDefaultDayRateRepositoryTest]: CountryDefaultDayRateRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-10-18 13:28:38,495 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.javaguru.travel.insurance.InsuranceApplication for test class org.javaguru.travel.insurance.core.repositories.CountryDefaultDayRateRepositoryTest
+Hibernate: select cddr1_0.id,cddr1_0.country_ic,cddr1_0.default_day_rate from country_default_day_rate cddr1_0 where cddr1_0.country_ic=?
+Hibernate: select cddr1_0.id,cddr1_0.country_ic,cddr1_0.default_day_rate from country_default_day_rate cddr1_0 where cddr1_0.country_ic=?
+Hibernate: select cddr1_0.id,cddr1_0.country_ic,cddr1_0.default_day_rate from country_default_day_rate cddr1_0 where cddr1_0.country_ic=?
+Hibernate: select cddr1_0.id,cddr1_0.country_ic,cddr1_0.default_day_rate from country_default_day_rate cddr1_0 where cddr1_0.country_ic=?
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

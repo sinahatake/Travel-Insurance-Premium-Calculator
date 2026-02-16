@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.javaguru.travel.insurance.core.repositories.ClassifierValueRepositoryTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2025-10-18T10:28:38" hostname="DESKTOP-0C0N9P6" time="0.168">
+  <properties/>
+  <testcase name="shouldNotFind_RiskType_FAKE()" classname="org.javaguru.travel.insurance.core.repositories.ClassifierValueRepositoryTest" time="0.021"/>
+  <testcase name="[1] ic=TRAVEL_MEDICAL" classname="org.javaguru.travel.insurance.core.repositories.ClassifierValueRepositoryTest" time="0.031"/>
+  <testcase name="[2] ic=TRAVEL_CANCELLATION" classname="org.javaguru.travel.insurance.core.repositories.ClassifierValueRepositoryTest" time="0.008"/>
+  <testcase name="[3] ic=TRAVEL_LOSS_BAGGAGE" classname="org.javaguru.travel.insurance.core.repositories.ClassifierValueRepositoryTest" time="0.01"/>
+  <testcase name="[4] ic=TRAVEL_THIRD_PARTY_LIABILITY" classname="org.javaguru.travel.insurance.core.repositories.ClassifierValueRepositoryTest" time="0.011"/>
+  <testcase name="[5] ic=TRAVEL_EVACUATION" classname="org.javaguru.travel.insurance.core.repositories.ClassifierValueRepositoryTest" time="0.009"/>
+  <testcase name="[6] ic=TRAVEL_SPORT_ACTIVITIES" classname="org.javaguru.travel.insurance.core.repositories.ClassifierValueRepositoryTest" time="0.01"/>
+  <testcase name="injectedRepositoryAreNotNull()" classname="org.javaguru.travel.insurance.core.repositories.ClassifierValueRepositoryTest" time="0.006"/>
+  <system-out><![CDATA[2025-10-18 13:28:38,293 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.javaguru.travel.insurance.core.repositories.ClassifierValueRepositoryTest]: ClassifierValueRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-10-18 13:28:38,307 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.javaguru.travel.insurance.InsuranceApplication for test class org.javaguru.travel.insurance.core.repositories.ClassifierValueRepositoryTest
+Hibernate: select cv1_0.id,cv1_0.classifier_id,cv1_0.description,cv1_0.ic from classifier_values cv1_0 left join classifiers c1_0 on c1_0.id=cv1_0.classifier_id where c1_0.title=? and cv1_0.ic=?
+Hibernate: select cv1_0.id,cv1_0.classifier_id,cv1_0.description,cv1_0.ic from classifier_values cv1_0 left join classifiers c1_0 on c1_0.id=cv1_0.classifier_id where c1_0.title=? and cv1_0.ic=?
+Hibernate: select c1_0.id,c1_0.description,c1_0.title from classifiers c1_0 where c1_0.id=?
+Hibernate: select cv1_0.id,cv1_0.classifier_id,cv1_0.description,cv1_0.ic from classifier_values cv1_0 left join classifiers c1_0 on c1_0.id=cv1_0.classifier_id where c1_0.title=? and cv1_0.ic=?
+Hibernate: select c1_0.id,c1_0.description,c1_0.title from classifiers c1_0 where c1_0.id=?
+Hibernate: select cv1_0.id,cv1_0.classifier_id,cv1_0.description,cv1_0.ic from classifier_values cv1_0 left join classifiers c1_0 on c1_0.id=cv1_0.classifier_id where c1_0.title=? and cv1_0.ic=?
+Hibernate: select c1_0.id,c1_0.description,c1_0.title from classifiers c1_0 where c1_0.id=?
+Hibernate: select cv1_0.id,cv1_0.classifier_id,cv1_0.description,cv1_0.ic from classifier_values cv1_0 left join classifiers c1_0 on c1_0.id=cv1_0.classifier_id where c1_0.title=? and cv1_0.ic=?
+Hibernate: select c1_0.id,c1_0.description,c1_0.title from classifiers c1_0 where c1_0.id=?
+Hibernate: select cv1_0.id,cv1_0.classifier_id,cv1_0.description,cv1_0.ic from classifier_values cv1_0 left join classifiers c1_0 on c1_0.id=cv1_0.classifier_id where c1_0.title=? and cv1_0.ic=?
+Hibernate: select c1_0.id,c1_0.description,c1_0.title from classifiers c1_0 where c1_0.id=?
+Hibernate: select cv1_0.id,cv1_0.classifier_id,cv1_0.description,cv1_0.ic from classifier_values cv1_0 left join classifiers c1_0 on c1_0.id=cv1_0.classifier_id where c1_0.title=? and cv1_0.ic=?
+Hibernate: select c1_0.id,c1_0.description,c1_0.title from classifiers c1_0 where c1_0.id=?
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

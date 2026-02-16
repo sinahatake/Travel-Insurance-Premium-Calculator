@@ -1,0 +1,17 @@
+{
+  "agreementDateFrom": "2040-07-01",
+  "agreementDateTo": "2040-07-10",
+  "country": null,
+  "risks": [
+    "TRAVEL_MEDICAL"
+  ],
+  "persons": [
+    {
+      "personCode": "010882-11034",
+      "personFirstName": "Olga",
+      "personLastName": "Sidorova",
+      "personBirthDate": "1990-11-11",
+      "medicalRiskLimitLevel": "LEVEL_10000"
+    }
+  ]
+}

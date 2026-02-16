@@ -1,0 +1,73 @@
+version: '1'
+
+networks:
+  javaguru:
+
+services:
+  db:
+    networks: [ javaguru ]
+    container_name: mysql-container
+    image: mysql:8.0
+    environment:
+      # Установленный пароль
+      MYSQL_ROOT_PASSWORD: admin
+    volumes:
+      - ./mysql-database-init:/docker-entrypoint-initdb.d
+    ports:
+      # Внешний порт: 3000, Внутренний порт: 3306
+      - "3000:3306"
+
+  # --- ПРИЛОЖЕНИЕ 1: INSURANCE CALCULATOR APP ---
+  insurance-calculator-app:
+    networks: [ javaguru ]
+    container_name: insurance-calc-container
+    image: insurance-calculator:1.0.2
+    ports:
+      - "8080:8080"
+    environment:
+      # Хост: используем имя сервиса базы данных
+      SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/insurance_calculator_db?serverTimezone=UTC
+      # Пароль, установленный в db-сервисе
+      SPRING_DATASOURCE_PASSWORD: admin
+      SPRING_DATASOURCE_USERNAME: root
+    volumes:
+      - ./insurance-calculator-app/logs:/app/logs
+      - ./insurance-calculator-app/export:/app/export
+    depends_on:
+      - db
+      - message-broker
+
+  message-broker:
+    networks: [ javaguru ]
+    container_name: rabbitmq-container
+    image: rabbitmq:3-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+
+  doc-generator-app:
+    networks: [ javaguru ]
+    container_name: doc-generator-container
+    image: doc-generator:1.0.2
+    ports:
+      - "8081:8080"
+    volumes:
+      - ./doc-generator-app/docs/proposals:/app/docs/proposals
+    depends_on:
+      - message-broker
+
+  # --- ПРИЛОЖЕНИЕ 2: BLACK LIST APP ---
+  black-list-app:
+    networks: [ javaguru ]
+    container_name: black-list-container
+    image: black-list:1.0.2
+    ports:
+      - "8090:8080"
+    environment:
+      # Хост: используем имя сервиса базы данных
+      SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/black_list_db?serverTimezone=UTC
+      # Пароль, установленный в db-сервисе
+      SPRING_DATASOURCE_PASSWORD: admin
+      SPRING_DATASOURCE_USERNAME: root
+    depends_on:
+      - db

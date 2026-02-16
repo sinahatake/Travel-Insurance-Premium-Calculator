@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.javaguru.travel.insurance.rest.internal.TravelGetAgreementControllerTestCase1" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-10-18T10:28:58" hostname="DESKTOP-0C0N9P6" time="0.412">
+  <properties/>
+  <testcase name="shouldGetAgreement()" classname="org.javaguru.travel.insurance.rest.internal.TravelGetAgreementControllerTestCase1" time="0.412"/>
+  <system-out><![CDATA[2025-10-18 13:28:58,488 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.javaguru.travel.insurance.rest.internal.TravelGetAgreementControllerTestCase1]: TravelGetAgreementControllerTestCase1 does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-10-18 13:28:58,504 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.javaguru.travel.insurance.InsuranceApplication for test class org.javaguru.travel.insurance.rest.internal.TravelGetAgreementControllerTestCase1
+2025-10-18 13:28:58,658 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumRequestLoggerV2 - REQUEST: {"agreementDateFrom":[2040,5,25],"agreementDateTo":[2040,5,29],"country":"SPAIN","persons":[{"personCode":"010882-11034","personFirstName":"Vasja","personLastName":"Pupkin","medicalRiskLimitLevel":"LEVEL_10000","personBirthDate":[2000,5,29]},{"personCode":"010882-11034","personFirstName":"Petja","personLastName":"Pupkin","medicalRiskLimitLevel":"LEVEL_20000","personBirthDate":[1950,2,28]}],"risks":["TRAVEL_MEDICAL"]}
+Hibernate: select cv1_0.id,cv1_0.classifier_id,cv1_0.description,cv1_0.ic from classifier_values cv1_0 left join classifiers c1_0 on c1_0.id=cv1_0.classifier_id where c1_0.title=? and cv1_0.ic=?
+Hibernate: select c1_0.id,c1_0.description,c1_0.title from classifiers c1_0 where c1_0.id=?
+Hibernate: select cv1_0.id,cv1_0.classifier_id,cv1_0.description,cv1_0.ic from classifier_values cv1_0 left join classifiers c1_0 on c1_0.id=cv1_0.classifier_id where c1_0.title=? and cv1_0.ic=?
+Hibernate: select c1_0.id,c1_0.description,c1_0.title from classifiers c1_0 where c1_0.id=?
+Hibernate: select cv1_0.id,cv1_0.classifier_id,cv1_0.description,cv1_0.ic from classifier_values cv1_0 left join classifiers c1_0 on c1_0.id=cv1_0.classifier_id where c1_0.title=? and cv1_0.ic=?
+Hibernate: select c1_0.id,c1_0.description,c1_0.title from classifiers c1_0 where c1_0.id=?
+Hibernate: select cv1_0.id,cv1_0.classifier_id,cv1_0.description,cv1_0.ic from classifier_values cv1_0 left join classifiers c1_0 on c1_0.id=cv1_0.classifier_id where c1_0.title=? and cv1_0.ic=?
+Hibernate: select cddr1_0.id,cddr1_0.country_ic,cddr1_0.default_day_rate from country_default_day_rate cddr1_0 where cddr1_0.country_ic=?
+Hibernate: select ac1_0.id,ac1_0.age_from,ac1_0.age_to,ac1_0.coefficient from age_coefficient ac1_0 where ? between ac1_0.age_from and ac1_0.age_to
+Hibernate: select mrll1_0.id,mrll1_0.coefficient,mrll1_0.medical_risk_limit_level_ic from medical_risk_limit_level mrll1_0 where mrll1_0.medical_risk_limit_level_ic=?
+Hibernate: select cddr1_0.id,cddr1_0.country_ic,cddr1_0.default_day_rate from country_default_day_rate cddr1_0 where cddr1_0.country_ic=?
+Hibernate: select ac1_0.id,ac1_0.age_from,ac1_0.age_to,ac1_0.coefficient from age_coefficient ac1_0 where ? between ac1_0.age_from and ac1_0.age_to
+Hibernate: select mrll1_0.id,mrll1_0.coefficient,mrll1_0.medical_risk_limit_level_ic from medical_risk_limit_level mrll1_0 where mrll1_0.medical_risk_limit_level_ic=?
+Hibernate: insert into agreements (date_from,date_to,premium,country,uuid,id) values (?,?,?,?,?,default)
+Hibernate: select pe1_0.id,pe1_0.birth_date,pe1_0.first_name,pe1_0.last_name,pe1_0.person_code from persons pe1_0 where pe1_0.first_name=? and pe1_0.last_name=? and pe1_0.person_code=?
+Hibernate: insert into persons (birth_date,first_name,last_name,person_code,id) values (?,?,?,?,default)
+Hibernate: insert into agreement_persons (agreement_id,medical_risk_limit_level,person_id,id) values (?,?,?,default)
+Hibernate: insert into agreement_person_risks (agreement_person_id,premium,risk_ic,id) values (?,?,?,default)
+Hibernate: select pe1_0.id,pe1_0.birth_date,pe1_0.first_name,pe1_0.last_name,pe1_0.person_code from persons pe1_0 where pe1_0.first_name=? and pe1_0.last_name=? and pe1_0.person_code=?
+Hibernate: insert into persons (birth_date,first_name,last_name,person_code,id) values (?,?,?,?,default)
+Hibernate: insert into agreement_persons (agreement_id,medical_risk_limit_level,person_id,id) values (?,?,?,default)
+Hibernate: insert into agreement_person_risks (agreement_person_id,premium,risk_ic,id) values (?,?,?,default)
+Hibernate: insert into selected_risks (agreement_id,risk_ic,id) values (?,?,default)
+2025-10-18 13:28:58,792 [Test worker] INFO  o.j.t.i.r.v.TravelCalculatePremiumResponseLoggerV2 - RESPONSE: {"uuid":"ace99963-dbc6-4852-ae53-91c28dfdd7a0","agreementDateFrom":[2040,5,25],"agreementDateTo":[2040,5,29],"agreementPremium":33.50,"country":"SPAIN","persons":[{"personCode":"010882-11034","personFirstName":"Vasja","personLastName":"Pupkin","personBirthDate":[2000,5,29],"medicalRiskLimitLevel":"LEVEL_10000","personPremium":11.00,"personRisks":[{"riskIc":"TRAVEL_MEDICAL","premium":11.00}]},{"personCode":"010882-11034","personFirstName":"Petja","personLastName":"Pupkin","personBirthDate":[1950,2,28],"medicalRiskLimitLevel":"LEVEL_20000","personPremium":22.50,"personRisks":[{"riskIc":"TRAVEL_MEDICAL","premium":22.50}]}]}
+2025-10-18 13:28:58,794 [Test worker] INFO  o.j.t.i.r.c.TravelCalculatePremiumRequestExecutionTimeLogger - Request processing time: 152 ms
+2025-10-18 13:28:58,849 [Test worker] INFO  o.j.t.i.r.i.TravelGetAgreementRequestLogger - UUID: ace99963-dbc6-4852-ae53-91c28dfdd7a0
+Hibernate: select ae1_0.id,ae1_0.date_from,ae1_0.date_to,ae1_0.premium,ae1_0.country,ae1_0.uuid from agreements ae1_0 where ae1_0.uuid=?
+Hibernate: select ae1_0.id,ae1_0.date_from,ae1_0.date_to,ae1_0.premium,ae1_0.country,ae1_0.uuid from agreements ae1_0 where ae1_0.uuid=?
+Hibernate: select ape1_0.id,ape1_0.agreement_id,ape1_0.medical_risk_limit_level,ape1_0.person_id from agreement_persons ape1_0 where ape1_0.agreement_id=?
+Hibernate: select pe1_0.id,pe1_0.birth_date,pe1_0.first_name,pe1_0.last_name,pe1_0.person_code from persons pe1_0 where pe1_0.id=?
+Hibernate: select pe1_0.id,pe1_0.birth_date,pe1_0.first_name,pe1_0.last_name,pe1_0.person_code from persons pe1_0 where pe1_0.id=?
+Hibernate: select apre1_0.id,apre1_0.agreement_person_id,apre1_0.premium,apre1_0.risk_ic from agreement_person_risks apre1_0 where apre1_0.agreement_person_id=?
+Hibernate: select apre1_0.id,apre1_0.agreement_person_id,apre1_0.premium,apre1_0.risk_ic from agreement_person_risks apre1_0 where apre1_0.agreement_person_id=?
+Hibernate: select sre1_0.id,sre1_0.agreement_id,sre1_0.risk_ic from selected_risks sre1_0 where sre1_0.agreement_id=?
+2025-10-18 13:28:58,887 [Test worker] INFO  o.j.t.i.r.i.TravelGetAgreementResponseLogger - RESPONSE: {"uuid":"ace99963-dbc6-4852-ae53-91c28dfdd7a0","agreementDateFrom":"2040-05-25","agreementDateTo":"2040-05-29","country":"SPAIN","agreementPremium":33.50,"persons":[{"personCode":"010882-11034","personFirstName":"Vasja","personLastName":"Pupkin","personBirthDate":[2000,5,29],"medicalRiskLimitLevel":"LEVEL_10000","personPremium":11.00,"personRisks":[{"riskIc":"TRAVEL_MEDICAL","premium":11.00}]},{"personCode":"010882-11034","personFirstName":"Petja","personLastName":"Pupkin","personBirthDate":[1950,2,28],"medicalRiskLimitLevel":"LEVEL_20000","personPremium":22.50,"personRisks":[{"riskIc":"TRAVEL_MEDICAL","premium":22.50}]}]}
+2025-10-18 13:28:58,887 [Test worker] INFO  o.j.t.i.r.c.TravelCalculatePremiumRequestExecutionTimeLogger - Request processing time: 37 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

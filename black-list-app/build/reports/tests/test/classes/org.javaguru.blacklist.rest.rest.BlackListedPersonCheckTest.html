@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - BlackListedPersonCheckTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>BlackListedPersonCheckTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.javaguru.blacklist.rest.rest.html">org.javaguru.blacklist.rest.rest</a> &gt; BlackListedPersonCheckTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">8</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.773s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Method name</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">ERROR_CODE_1 personFirstName is EMPTY</td>
+<td class="success">check_ERROR_CODE_1_EMPTY()</td>
+<td class="success">0.016s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">ERROR_CODE_1 personFirstName is NULL</td>
+<td class="success">check_ERROR_CODE_1_NULL()</td>
+<td class="success">0.015s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">ERROR_CODE_2 personLastName is EMPTY</td>
+<td class="success">check_ERROR_CODE_2_EMPTY()</td>
+<td class="success">0.352s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">ERROR_CODE_2 personLastName is NULL</td>
+<td class="success">check_ERROR_CODE_2_NULL()</td>
+<td class="success">0.024s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">ERROR_CODE_3 personCode is EMPTY</td>
+<td class="success">check_ERROR_CODE_3_EMPTY()</td>
+<td class="success">0.018s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">ERROR_CODE_3 personCode is NULL</td>
+<td class="success">check_ERROR_CODE_3_NULL()</td>
+<td class="success">0.022s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Person not blacklisted</td>
+<td class="success">check_Person_NOT_blacklisted()</td>
+<td class="success">0.258s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Person blacklisted</td>
+<td class="success">check_Person_blacklisted()</td>
+<td class="success">0.068s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>13:28:27,586 |-INFO in ch.qos.logback.classic.LoggerContext[default] - This is logback-classic version 1.5.18
+13:28:27,590 |-INFO in ch.qos.logback.classic.util.ContextInitializer@69d23296 - Here is a list of configurators discovered as a service, by rank: 
+13:28:27,590 |-INFO in ch.qos.logback.classic.util.ContextInitializer@69d23296 -   org.springframework.boot.logging.logback.RootLogLevelConfigurator
+13:28:27,590 |-INFO in ch.qos.logback.classic.util.ContextInitializer@69d23296 - They will be invoked in order until ExecutionStatus.DO_NOT_INVOKE_NEXT_IF_ANY is returned.
+13:28:27,590 |-INFO in ch.qos.logback.classic.util.ContextInitializer@69d23296 - Constructed configurator of type class org.springframework.boot.logging.logback.RootLogLevelConfigurator
+13:28:27,610 |-INFO in ch.qos.logback.classic.util.ContextInitializer@69d23296 - org.springframework.boot.logging.logback.RootLogLevelConfigurator.configure() call lasted 1 milliseconds. ExecutionStatus=INVOKE_NEXT_IF_ANY
+13:28:27,610 |-INFO in ch.qos.logback.classic.util.ContextInitializer@69d23296 - Trying to configure with ch.qos.logback.classic.joran.SerializedModelConfigurator
+13:28:27,611 |-INFO in ch.qos.logback.classic.util.ContextInitializer@69d23296 - Constructed configurator of type class ch.qos.logback.classic.joran.SerializedModelConfigurator
+13:28:27,617 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.scmo]
+13:28:27,618 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.scmo]
+13:28:27,618 |-INFO in ch.qos.logback.classic.util.ContextInitializer@69d23296 - ch.qos.logback.classic.joran.SerializedModelConfigurator.configure() call lasted 7 milliseconds. ExecutionStatus=INVOKE_NEXT_IF_ANY
+13:28:27,618 |-INFO in ch.qos.logback.classic.util.ContextInitializer@69d23296 - Trying to configure with ch.qos.logback.classic.util.DefaultJoranConfigurator
+13:28:27,621 |-INFO in ch.qos.logback.classic.util.ContextInitializer@69d23296 - Constructed configurator of type class ch.qos.logback.classic.util.DefaultJoranConfigurator
+13:28:27,622 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+13:28:27,631 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/C:/Users/Sinahatake/IdeaProjects/2025_virtual_internship/student_nastya_loktionova_v2/black-list-app/build/resources/main/logback.xml]
+13:28:27,942 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [CONSOLE]
+13:28:27,943 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+13:28:27,958 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+13:28:28,063 |-INFO in ch.qos.logback.core.ConsoleAppender[CONSOLE] - BEWARE: Writing to the console can be very slow. Avoid logging to the 
+13:28:28,063 |-INFO in ch.qos.logback.core.ConsoleAppender[CONSOLE] - console in production environments, especially in high volume systems.
+13:28:28,063 |-INFO in ch.qos.logback.core.ConsoleAppender[CONSOLE] - See also https://logback.qos.ch/codes.html#slowConsole
+13:28:28,063 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [FILE_APPENDER]
+13:28:28,063 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+13:28:28,072 |-INFO in ch.qos.logback.core.model.processor.ModelInterpretationContext@3c3820bb - value &quot;./logs/application-logger.log&quot; substituted for &quot;${LOGS}/application-logger.log&quot;
+13:28:28,072 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+13:28:28,078 |-INFO in ch.qos.logback.core.model.processor.ModelInterpretationContext@3c3820bb - value &quot;./logs/archived/application-logger-%d{yyyy-MM-dd}.%i.log&quot; substituted for &quot;${LOGS}/archived/application-logger-%d{yyyy-MM-dd}.%i.log&quot;
+13:28:28,096 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@929856893 - No compression will be used
+13:28:28,107 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@929856893 - Will use the pattern ./logs/archived/application-logger-%d{yyyy-MM-dd}.%i.log for the active file
+13:28:28,107 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@4784efd9 - SizeAndTimeBasedFNATP class was renamed as SizeAndTimeBasedFileNamingAndTriggeringPolicy.
+13:28:28,111 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@4784efd9 - The date pattern is 'yyyy-MM-dd' from file name pattern './logs/archived/application-logger-%d{yyyy-MM-dd}.%i.log'.
+13:28:28,111 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@4784efd9 - Roll-over at midnight.
+13:28:28,113 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@4784efd9 - Setting initial period to 2025-10-18T10:28:28.113Z
+13:28:28,113 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@4784efd9 - Direct use of either SizeAndTimeBasedFNATP or SizeAndTimeBasedFileNamingAndTriggeringPolicy 
+13:28:28,113 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@4784efd9 - is deprecated. Please use SizeAndTimeBasedRollingPolicy instead.
+13:28:28,113 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@4784efd9 - For more information see https://logback.qos.ch/manual/appenders.html#SizeAndTimeBasedRollingPolicy
+13:28:28,120 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE_APPENDER] - Active log file name: ./logs/application-logger.log
+13:28:28,120 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE_APPENDER] - File property is set to [./logs/application-logger.log]
+13:28:28,122 |-INFO in ch.qos.logback.classic.model.processor.RootLoggerModelHandler - Setting level of ROOT logger to INFO
+13:28:28,124 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [CONSOLE] to Logger[ROOT]
+13:28:28,124 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [FILE_APPENDER] to Logger[ROOT]
+13:28:28,124 |-INFO in ch.qos.logback.core.model.processor.DefaultProcessor@3fba233d - End of configuration.
+13:28:28,125 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@427ae189 - Registering current configuration as safe fallback point
+13:28:28,125 |-INFO in ch.qos.logback.classic.util.ContextInitializer@69d23296 - ch.qos.logback.classic.util.DefaultJoranConfigurator.configure() call lasted 504 milliseconds. ExecutionStatus=DO_NOT_INVOKE_NEXT_IF_ANY
+
+2025-10-18 13:28:28,302 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.javaguru.blacklist.rest.rest.BlackListedPersonCheckTest]: BlackListedPersonCheckTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-10-18 13:28:28,532 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.javaguru.blacklist.BlackListApplication for test class org.javaguru.blacklist.rest.rest.BlackListedPersonCheckTest
+13:28:29,111 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [CONSOLE]
+13:28:29,111 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+13:28:29,111 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+13:28:29,112 |-INFO in ch.qos.logback.core.ConsoleAppender[CONSOLE] - BEWARE: Writing to the console can be very slow. Avoid logging to the 
+13:28:29,112 |-INFO in ch.qos.logback.core.ConsoleAppender[CONSOLE] - console in production environments, especially in high volume systems.
+13:28:29,112 |-INFO in ch.qos.logback.core.ConsoleAppender[CONSOLE] - See also https://logback.qos.ch/codes.html#slowConsole
+13:28:29,112 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [FILE_APPENDER]
+13:28:29,112 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+13:28:29,112 |-INFO in ch.qos.logback.core.model.processor.ModelInterpretationContext@57e5396b - value &quot;./logs/application-logger.log&quot; substituted for &quot;${LOGS}/application-logger.log&quot;
+13:28:29,112 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+13:28:29,113 |-INFO in ch.qos.logback.core.model.processor.ModelInterpretationContext@57e5396b - value &quot;./logs/archived/application-logger-%d{yyyy-MM-dd}.%i.log&quot; substituted for &quot;${LOGS}/archived/application-logger-%d{yyyy-MM-dd}.%i.log&quot;
+13:28:29,113 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@788877168 - No compression will be used
+13:28:29,113 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@788877168 - Will use the pattern ./logs/archived/application-logger-%d{yyyy-MM-dd}.%i.log for the active file
+13:28:29,113 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@6467ddc7 - SizeAndTimeBasedFNATP class was renamed as SizeAndTimeBasedFileNamingAndTriggeringPolicy.
+13:28:29,113 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@6467ddc7 - The date pattern is 'yyyy-MM-dd' from file name pattern './logs/archived/application-logger-%d{yyyy-MM-dd}.%i.log'.
+13:28:29,114 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@6467ddc7 - Roll-over at midnight.
+13:28:29,114 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@6467ddc7 - Setting initial period to 2025-10-18T10:28:28.533Z
+13:28:29,114 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@6467ddc7 - Direct use of either SizeAndTimeBasedFNATP or SizeAndTimeBasedFileNamingAndTriggeringPolicy 
+13:28:29,114 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@6467ddc7 - is deprecated. Please use SizeAndTimeBasedRollingPolicy instead.
+13:28:29,114 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@6467ddc7 - For more information see https://logback.qos.ch/manual/appenders.html#SizeAndTimeBasedRollingPolicy
+13:28:29,114 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE_APPENDER] - Active log file name: ./logs/application-logger.log
+13:28:29,118 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE_APPENDER] - Setting currentFileLength to 584 for .\logs\application-logger.log
+13:28:29,118 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE_APPENDER] - File property is set to [./logs/application-logger.log]
+13:28:29,119 |-INFO in ch.qos.logback.classic.model.processor.RootLoggerModelHandler - Setting level of ROOT logger to INFO
+13:28:29,119 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@27b337bb - Propagating INFO level on Logger[ROOT] onto the JUL framework
+13:28:29,119 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [CONSOLE] to Logger[ROOT]
+13:28:29,119 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [FILE_APPENDER] to Logger[ROOT]
+13:28:29,119 |-INFO in ch.qos.logback.core.model.processor.DefaultProcessor@59636c47 - End of configuration.
+13:28:29,119 |-INFO in org.springframework.boot.logging.logback.SpringBootJoranConfigurator@5c18d6d4 - Registering current configuration as safe fallback point
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.5)
+
+2025-10-18 13:28:29,291 [Test worker] INFO  o.j.b.r.r.BlackListedPersonCheckTest - Starting BlackListedPersonCheckTest using Java 21.0.4 with PID 30568 (started by Sinahatake in C:\Users\Sinahatake\IdeaProjects\2025_virtual_internship\student_nastya_loktionova_v2\black-list-app)
+2025-10-18 13:28:29,295 [Test worker] INFO  o.j.b.r.r.BlackListedPersonCheckTest - No active profile set, falling back to 1 default profile: &quot;default&quot;
+2025-10-18 13:28:31,062 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-18 13:28:31,201 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 106 ms. Found 1 JPA repository interface.
+2025-10-18 13:28:31,949 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-18 13:28:32,280 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-10-18 13:28:32,283 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-10-18 13:28:32,553 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-18 13:28:32,691 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-10-18 13:28:32,787 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-18 13:28:33,023 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-18 13:28:33,111 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-18 13:28:33,136 [Test worker] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.2.224
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-18 13:28:34,179 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-18 13:28:34,251 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-18 13:28:35,938 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-18 13:28:36,009 [Test worker] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-10-18 13:28:37,076 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-10-18 13:28:37,077 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-10-18 13:28:37,082 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-10-18 13:28:37,175 [Test worker] INFO  o.j.b.r.r.BlackListedPersonCheckTest - Started BlackListedPersonCheckTest in 8.36 seconds (process running for 13.658)
+2025-10-18 13:28:37,451 [Test worker] INFO  o.j.b.rest.BlacklistRequestLogger - REQUEST: {&quot;personCode&quot;:&quot;123456-12345&quot;,&quot;personFirstName&quot;:&quot;Vasja&quot;,&quot;personLastName&quot;:&quot;&quot;}
+2025-10-18 13:28:37,484 [Test worker] INFO  o.j.b.rest.BlacklistResponseLogger - RESPONSE: {&quot;errors&quot;:[{&quot;errorCode&quot;:&quot;ERROR_CODE_2&quot;,&quot;description&quot;:&quot;Field personLastName must not be empty!&quot;}]}
+2025-10-18 13:28:37,484 [Test worker] INFO  o.j.b.r.BlacklistRequestExecutionTimeLogger - Request processing time: 50 ms
+2025-10-18 13:28:37,568 [Test worker] INFO  o.j.b.rest.BlacklistRequestLogger - REQUEST: {&quot;personCode&quot;:&quot;123456-12345&quot;,&quot;personFirstName&quot;:&quot;Vasja&quot;,&quot;personLastName&quot;:&quot;Pupkin&quot;}
+Hibernate: select blpe1_0.id,blpe1_0.person_first_name,blpe1_0.person_last_name,blpe1_0.person_code from black_listed_persons blpe1_0 where blpe1_0.person_first_name=? and blpe1_0.person_last_name=? and blpe1_0.person_code=?
+2025-10-18 13:28:37,814 [Test worker] INFO  o.j.b.rest.BlacklistResponseLogger - RESPONSE: {&quot;personCode&quot;:&quot;123456-12345&quot;,&quot;personFirstName&quot;:&quot;Vasja&quot;,&quot;personLastName&quot;:&quot;Pupkin&quot;,&quot;blacklisted&quot;:false}
+2025-10-18 13:28:37,814 [Test worker] INFO  o.j.b.r.BlacklistRequestExecutionTimeLogger - Request processing time: 246 ms
+2025-10-18 13:28:37,830 [Test worker] INFO  o.j.b.rest.BlacklistRequestLogger - REQUEST: {&quot;personCode&quot;:&quot;&quot;,&quot;personFirstName&quot;:&quot;Vasja&quot;,&quot;personLastName&quot;:&quot;Pupkin&quot;}
+2025-10-18 13:28:37,833 [Test worker] INFO  o.j.b.rest.BlacklistResponseLogger - RESPONSE: {&quot;errors&quot;:[{&quot;errorCode&quot;:&quot;ERROR_CODE_3&quot;,&quot;description&quot;:&quot;Field personCode must not be empty!&quot;}]}
+2025-10-18 13:28:37,834 [Test worker] INFO  o.j.b.r.BlacklistRequestExecutionTimeLogger - Request processing time: 4 ms
+2025-10-18 13:28:37,846 [Test worker] INFO  o.j.b.rest.BlacklistRequestLogger - REQUEST: {&quot;personCode&quot;:&quot;123456-12345&quot;,&quot;personFirstName&quot;:null,&quot;personLastName&quot;:&quot;Pupkin&quot;}
+2025-10-18 13:28:37,851 [Test worker] INFO  o.j.b.rest.BlacklistResponseLogger - RESPONSE: {&quot;errors&quot;:[{&quot;errorCode&quot;:&quot;ERROR_CODE_1&quot;,&quot;description&quot;:&quot;Field personFirstName must not be empty!&quot;}]}
+2025-10-18 13:28:37,851 [Test worker] INFO  o.j.b.r.BlacklistRequestExecutionTimeLogger - Request processing time: 6 ms
+2025-10-18 13:28:37,866 [Test worker] INFO  o.j.b.rest.BlacklistRequestLogger - REQUEST: {&quot;personCode&quot;:&quot;123456-12345&quot;,&quot;personFirstName&quot;:&quot;Vasja&quot;,&quot;personLastName&quot;:null}
+2025-10-18 13:28:37,872 [Test worker] INFO  o.j.b.rest.BlacklistResponseLogger - RESPONSE: {&quot;errors&quot;:[{&quot;errorCode&quot;:&quot;ERROR_CODE_2&quot;,&quot;description&quot;:&quot;Field personLastName must not be empty!&quot;}]}
+2025-10-18 13:28:37,872 [Test worker] INFO  o.j.b.r.BlacklistRequestExecutionTimeLogger - Request processing time: 7 ms
+2025-10-18 13:28:37,892 [Test worker] INFO  o.j.b.rest.BlacklistRequestLogger - REQUEST: {&quot;personCode&quot;:null,&quot;personFirstName&quot;:&quot;Vasja&quot;,&quot;personLastName&quot;:&quot;Pupkin&quot;}
+2025-10-18 13:28:37,898 [Test worker] INFO  o.j.b.rest.BlacklistResponseLogger - RESPONSE: {&quot;errors&quot;:[{&quot;errorCode&quot;:&quot;ERROR_CODE_3&quot;,&quot;description&quot;:&quot;Field personCode must not be empty!&quot;}]}
+2025-10-18 13:28:37,898 [Test worker] INFO  o.j.b.r.BlacklistRequestExecutionTimeLogger - Request processing time: 8 ms
+2025-10-18 13:28:37,914 [Test worker] INFO  o.j.b.rest.BlacklistRequestLogger - REQUEST: {&quot;personCode&quot;:&quot;123456-12345&quot;,&quot;personFirstName&quot;:&quot;Petja&quot;,&quot;personLastName&quot;:&quot;Pupkin&quot;}
+Hibernate: select blpe1_0.id,blpe1_0.person_first_name,blpe1_0.person_last_name,blpe1_0.person_code from black_listed_persons blpe1_0 where blpe1_0.person_first_name=? and blpe1_0.person_last_name=? and blpe1_0.person_code=?
+2025-10-18 13:28:37,971 [Test worker] INFO  o.j.b.rest.BlacklistResponseLogger - RESPONSE: {&quot;personCode&quot;:&quot;123456-12345&quot;,&quot;personFirstName&quot;:&quot;Petja&quot;,&quot;personLastName&quot;:&quot;Pupkin&quot;,&quot;blacklisted&quot;:true}
+2025-10-18 13:28:37,971 [Test worker] INFO  o.j.b.r.BlacklistRequestExecutionTimeLogger - Request processing time: 57 ms
+2025-10-18 13:28:37,983 [Test worker] INFO  o.j.b.rest.BlacklistRequestLogger - REQUEST: {&quot;personCode&quot;:&quot;123456-12345&quot;,&quot;personFirstName&quot;:&quot;&quot;,&quot;personLastName&quot;:&quot;Pupkin&quot;}
+2025-10-18 13:28:37,987 [Test worker] INFO  o.j.b.rest.BlacklistResponseLogger - RESPONSE: {&quot;errors&quot;:[{&quot;errorCode&quot;:&quot;ERROR_CODE_1&quot;,&quot;description&quot;:&quot;Field personFirstName must not be empty!&quot;}]}
+2025-10-18 13:28:37,987 [Test worker] INFO  o.j.b.r.BlacklistRequestExecutionTimeLogger - Request processing time: 4 ms
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.11.1</a> at 18 окт. 2025 г., 13:28:38</p>
+</div>
+</div>
+</body>
+</html>

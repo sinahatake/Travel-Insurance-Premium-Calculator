@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.javaguru.travel.insurance.core.util.DateTimeUtilTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-10-18T10:28:54" hostname="DESKTOP-0C0N9P6" time="0.002">
+  <properties/>
+  <testcase name="shouldCalculatePositive()" classname="org.javaguru.travel.insurance.core.util.DateTimeUtilTest" time="0.001"/>
+  <testcase name="shouldCalculateNegative()" classname="org.javaguru.travel.insurance.core.util.DateTimeUtilTest" time="0.0"/>
+  <testcase name="shouldCalculate()" classname="org.javaguru.travel.insurance.core.util.DateTimeUtilTest" time="0.0"/>
+  <testcase name="shouldCalculateZero()" classname="org.javaguru.travel.insurance.core.util.DateTimeUtilTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

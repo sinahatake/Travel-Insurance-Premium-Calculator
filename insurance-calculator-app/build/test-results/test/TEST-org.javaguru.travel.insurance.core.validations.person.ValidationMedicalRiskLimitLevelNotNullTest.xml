@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.javaguru.travel.insurance.core.validations.person.ValidationMedicalRiskLimitLevelNotNullTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-10-18T10:28:58" hostname="DESKTOP-0C0N9P6" time="0.006">
+  <properties/>
+  <testcase name="shouldNotReturnError_whenValidationIsDisabled()" classname="org.javaguru.travel.insurance.core.validations.person.ValidationMedicalRiskLimitLevelNotNullTest" time="0.002"/>
+  <testcase name="shouldReturnError_whenMedicalRiskLimitLevelIsBlank_andValidationEnabled()" classname="org.javaguru.travel.insurance.core.validations.person.ValidationMedicalRiskLimitLevelNotNullTest" time="0.001"/>
+  <testcase name="shouldReturnError_whenMedicalRiskLimitLevelIsNull_andValidationEnabled()" classname="org.javaguru.travel.insurance.core.validations.person.ValidationMedicalRiskLimitLevelNotNullTest" time="0.001"/>
+  <testcase name="shouldNotReturnError_whenMedicalRiskLimitLevelIsValid()" classname="org.javaguru.travel.insurance.core.validations.person.ValidationMedicalRiskLimitLevelNotNullTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
